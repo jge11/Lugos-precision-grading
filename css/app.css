@@ -1,0 +1,462 @@
+@media only screen and (min-width: 0) {
+  .landingSection {
+    font-family: "" Jost ", sans-serif";
+    width: 100%;
+    height: auto;
+    margin-bottom: 7.5em;
+  }
+  .landingSection .heroSection {
+    color: #ffffff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/ptRopeExercise.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .landingSection .heroSection .companyMessage {
+    display: grid;
+    gap: 1em;
+    padding-top: 5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  .landingSection .heroSection .companyMessage .cta {
+    display: grid;
+    gap: 1em;
+  }
+  .landingSection .heroSection .companyMessage .cta #subTitle {
+    color: #1a6fe1;
+    max-width: fit-content;
+    padding-bottom: 1em;
+  }
+  .landingSection .heroSection .companyMessage .cta #title {
+    max-width: fit-content;
+  }
+  .landingSection .heroSection .companyMessage .cta #messageSubText {
+    max-width: 20em;
+  }
+  .landingSection .heroSection .companyMessage .navLink {
+    margin-bottom: 4em;
+    max-width: fit-content;
+  }
+  .landingSection .heroSection .companyMessage .navLink .contactUs {
+    background-image: linear-gradient(to right, #e12454 50%, #011e45 50%);
+    background-size: 200% 100%;
+    transition: background-position 0.5s;
+    background-position: 0;
+    color: #ffffff;
+    border: none;
+    padding: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 0;
+    cursor: pointer;
+  }
+  .landingSection .heroSection .companyMessage .navLink :hover {
+    background-position: 100%;
+    color: #ffffff;
+  }
+  .whoWeAre {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 1em;
+    margin-right: 1em;
+    justify-items: center;
+    margin-bottom: 7.5em;
+    border-right: #1a6fe1;
+  }
+  .whoWeAre .description {
+    display: inherit;
+    gap: 1em;
+  }
+  .whoWeAre .description .subTitle {
+    display: flex;
+    align-items: center;
+    color: #1a6fe1;
+    font-size: 1em;
+    line-height: 1.25em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .whoWeAre .description .subTitle .subtitleBorder {
+    position: relative;
+    display: block;
+    background-color: #1a6fe1;
+    width: 1.875em;
+    height: 0.125em;
+    margin-right: 0.625em;
+  }
+  .whoWeAre .description .welcomeMessage {
+    color: #011e45;
+    font-size: 1.75em;
+    line-height: 1.25em;
+    font-weight: 900;
+  }
+  .whoWeAre .description p.subText {
+    color: #011e45;
+    font-size: 1.25em;
+    font-weight: 600;
+    line-height: 1.4375em;
+  }
+  .whoWeAre .description span.serviceDescription p {
+    color: #444444;
+    font-family: "Barlow", Sans-serif;
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 2em;
+  }
+  .whoWeAre .description a.navLink {
+    margin-bottom: 4em;
+    max-width: fit-content;
+  }
+  .whoWeAre .description a.navLink .ourServices {
+    background-image: linear-gradient(to right, #e12454 50%, #011e45 50%);
+    background-size: 200% 100%;
+    transition: background-position 0.5s;
+    background-position: 0;
+    color: #ffffff;
+    border: none;
+    padding: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 1.875em;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  .whoWeAre .description a.navLink :hover {
+    background-position: 100%;
+    color: #ffffff;
+  }
+  .whoWeAre .container .innerImage img {
+    max-width: 100%;
+    transform: scale(1);
+  }
+  .whoWeAre .container .innerImage .box1 {
+    position: relative;
+    left: -0.625em;
+    bottom: 1.6875em;
+    width: 5.625em;
+    height: 5.625em;
+    background-color: #7ec4d0;
+    z-index: -1;
+  }
+  .whyChooseUs {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 5em;
+    align-items: center;
+    background-color: #0cb2cf;
+    margin-bottom: 7.5em;
+  }
+  .whyChooseUs .innerImage {
+    display: none;
+  }
+  .whyChooseUs .innerImage img {
+    height: 100%;
+  }
+  .whyChooseUs .description {
+    display: inherit;
+    gap: 1em;
+    padding: 1em;
+  }
+  .whyChooseUs .description .subTitle {
+    color: #ffffff;
+    font-size: 2.5em;
+  }
+  .whyChooseUs .description .welcomeMessage {
+    color: #ffffff;
+    font-size: 1.5em;
+  }
+  .whyChooseUs .description .subText {
+    color: #ffffff;
+  }
+  .whyChooseUs .description .serviceDescription p {
+    color: #ffffff;
+    font-size: 1.125em;
+    line-height: 2em;
+  }
+  .whyChooseUs .description .factCounter {
+    font-size: 3.75em;
+    color: #ffffff;
+  }
+  .whyChooseUs .description .factCounter .clientsServed {
+    display: flex;
+  }
+  .whyChooseUs .description .factCounter .experience {
+    display: flex;
+  }
+  .whatWeOffer {
+    display: grid;
+    margin-bottom: 7.5em;
+  }
+  .whatWeOffer .description {
+    display: inherit;
+    justify-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .whatWeOffer .description .subTitle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #1a6fe1;
+    font-size: 0.9375em;
+    line-height: 1.25em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .whatWeOffer .description .subTitle .subtitleBorder {
+    position: relative;
+    display: block;
+    background-color: #1a6fe1;
+    width: 1.875em;
+    height: 0.125em;
+    margin-right: 0.625em;
+  }
+  .whatWeOffer .description h2 {
+    font-size: 2em;
+    color: #011e45;
+    font-weight: 900;
+  }
+  .whatWeOffer .description .subText p {
+    max-width: 60em;
+    font-size: 1.125em;
+    line-height: 1.875em;
+    text-align: left;
+  }
+  .whatWeOffer .carouselContainer {
+    position: relative;
+    display: flex;
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid red;
+  }
+  .whatWeOffer .carouselContainer .carouselItem {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+  }
+  .whatWeOffer .carouselContainer .carouselItem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .benefitsOfPt {
+    display: grid;
+    margin-bottom: 7.5em;
+    grid-template-columns: 1fr;
+    margin-bottom: 5em;
+    align-items: center;
+    background-image: linear-gradient(180deg, #f4f5f9 0%, #f4f5f9 100%);
+  }
+  .benefitsOfPt .description {
+    display: inherit;
+    gap: 1em;
+    padding: 1em;
+  }
+  .benefitsOfPt .description .subTitle {
+    font-size: 2.5em;
+  }
+  .benefitsOfPt .description .subTitle .subtitleBottomBorder {
+    position: relative;
+    display: block;
+    background-color: #011e45;
+    width: 1.875em;
+    height: 0.125em;
+    margin-right: 0.625em;
+  }
+  .benefitsOfPt .description .welcomeMessage {
+    color: #ffffff;
+    font-size: 1.5em;
+  }
+  .benefitsOfPt .description .subText {
+    color: #ffffff;
+  }
+  .benefitsOfPt .description .serviceDescription p {
+    color: #ffffff;
+    font-size: 1.125em;
+    line-height: 2em;
+  }
+  .benefitsOfPt .description .factCounter {
+    font-size: 3.75em;
+    color: #ffffff;
+  }
+  .benefitsOfPt .description .factCounter .clientsServed {
+    display: flex;
+  }
+  .benefitsOfPt .description .factCounter .experience {
+    display: flex;
+  }
+  .benefitsOfPt .description .navLink {
+    margin-bottom: 4em;
+    max-width: fit-content;
+  }
+  .benefitsOfPt .description .navLink .viewServices {
+    background-image: linear-gradient(to right, #e12454 50%, #011e45 50%);
+    background-size: 200% 100%;
+    transition: background-position 0.5s;
+    background-position: 0;
+    color: #ffffff;
+    border: none;
+    padding: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 0;
+    cursor: pointer;
+  }
+  .benefitsOfPt .description .navLink :hover {
+    background-position: 100%;
+    color: #ffffff;
+  }
+  .benefitsOfPt .innerImage img {
+    height: 100%;
+  }
+  .statistics {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 1em;
+    margin-right: 1em;
+    justify-items: center;
+    margin-top: 1.875em;
+    margin-bottom: 7.5em;
+    border-right: #1a6fe1;
+  }
+  .statistics .description {
+    display: inherit;
+    align-content: center;
+  }
+  .statistics .description .subTitle {
+    display: flex;
+    align-items: center;
+    color: #1a6fe1;
+    font-size: 2em;
+    line-height: 1.25em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .statistics .description .subTitle .subtitleBorder {
+    position: relative;
+    display: block;
+    background-color: #1a6fe1;
+    width: 1.875em;
+    height: 0.125em;
+    margin-right: 0.625em;
+  }
+  .statistics .description .welcomeMessage {
+    color: #011e45;
+    font-size: 2.8125em;
+    line-height: 1.25em;
+    font-weight: 900;
+  }
+  .statistics .description span.serviceDescription p {
+    color: #444444;
+    font-family: "Barlow", Sans-serif;
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 2em;
+  }
+  .statistics .description a.navLink {
+    margin-bottom: 4em;
+    max-width: fit-content;
+  }
+  .statistics .description a.navLink .ourServices {
+    background-image: linear-gradient(to right, #e12454 50%, #011e45 50%);
+    background-size: 200% 100%;
+    transition: background-position 0.5s;
+    background-position: 0;
+    color: #ffffff;
+    border: none;
+    padding: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 1.875em;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  .statistics .description a.navLink :hover {
+    background-position: 100%;
+    color: #ffffff;
+  }
+  .statistics .container .innerImage img {
+    max-width: 100%;
+    transform: scale(1);
+  }
+  .statistics .container .innerImage .box1 {
+    position: relative;
+    left: -0.625em;
+    bottom: 1.6875em;
+    width: 5.625em;
+    height: 5.625em;
+    background-color: #7ec4d0;
+    z-index: -1;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .landingSection .heroSection {
+    background-position: top;
+  }
+  .landingSection .heroSection .companyMessage {
+    padding-top: 15em;
+    padding-bottom: 15em;
+    max-width: fit-content;
+    gap: 2em;
+    background: transparent;
+  }
+  .landingSection .heroSection .companyMessage .cta {
+    font-size: 1.25em;
+  }
+  .landingSection .heroSection .companyMessage .cta #subTitle {
+    font-size: 1.25em;
+  }
+  .landingSection .heroSection .companyMessage .navLink .contactUs {
+    font-size: 1em;
+  }
+  .whatWeOffer .carouselContainer {
+    width: 600px;
+  }
+  .whatWeOffer .carouselContainer ul {
+    display: flex;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .whoWeAre {
+    grid-template-columns: 1fr 1fr;
+  }
+  .whoWeAre .description {
+    padding-right: 1em;
+  }
+  .whyChooseUs {
+    margin-left: 0;
+    margin-right: 0;
+    grid-template-columns: 1fr 1fr;
+  }
+  .whyChooseUs .innerImage {
+    display: contents;
+  }
+  .whyChooseUs .description .factCounter {
+    display: flex;
+    justify-content: space-around;
+  }
+  .benefitsOfPt {
+    margin-left: 0;
+    margin-right: 0;
+    grid-template-columns: 1fr 1fr;
+  }
+  .benefitsOfPt .innerImage {
+    display: contents;
+  }
+  .statistics {
+    grid-template-columns: 1fr 1fr;
+  }
+  .statistics .description {
+    padding-right: 1em;
+  }
+}

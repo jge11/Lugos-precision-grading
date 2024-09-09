@@ -1,0 +1,422 @@
+@media only screen and (min-width: 0) {
+  .whoWeAre {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 2em;
+    margin-right: 2em;
+    justify-items: center;
+    margin-bottom: 7.5em;
+    border-right: #1a6fe1;
+  }
+  .whoWeAre .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+  }
+  .whoWeAre .description .subTitle {
+    display: flex;
+    align-items: center;
+    color: #1a6fe1;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .whoWeAre .description .subTitle .subtitleBorder {
+    position: relative;
+    display: block;
+    background-color: #1a6fe1;
+    width: 1.875em;
+    height: 0.125em;
+    margin-right: 0.625em;
+  }
+  .whoWeAre .description .welcomeMessage {
+    color: #011e45;
+    font-size: 2.8125em;
+    line-height: 1.25em;
+    font-weight: 900;
+  }
+  .whoWeAre .description p.subText {
+    color: #011e45;
+    font-size: 1.375em;
+    font-weight: 600;
+    line-height: 1.4375em;
+  }
+  .whoWeAre .description span.serviceDescription p {
+    color: #444444;
+    font-family: "Barlow", Sans-serif;
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 2em;
+  }
+  .whoWeAre .description a.navLink {
+    margin-bottom: 4em;
+    max-width: fit-content;
+  }
+  .whoWeAre .description a.navLink .ourServices {
+    background-image: linear-gradient(to right, #e12454 50%, #011e45 50%);
+    background-size: 200% 100%;
+    transition: background-position 0.5s;
+    background-position: 0;
+    color: #ffffff;
+    border: none;
+    padding: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 1.875em;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  .whoWeAre .description a.navLink :hover {
+    background-position: 100%;
+    color: #ffffff;
+  }
+  .whoWeAre .container .innerImage img {
+    max-width: 100%;
+    transform: scale(1);
+  }
+  .whoWeAre .container .innerImage .box1 {
+    position: relative;
+    left: -0.625em;
+    bottom: 1.6875em;
+    width: 5.625em;
+    height: 5.625em;
+    background-color: #7ec4d0;
+    z-index: -1;
+  }
+  .whyChooseUs {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 5em;
+    align-items: center;
+    background-color: #0cb2cf;
+    margin-bottom: 7.5em;
+  }
+  .whyChooseUs .innerImage {
+    display: none;
+  }
+  .whyChooseUs .innerImage img {
+    height: 100%;
+  }
+  .whyChooseUs .description {
+    display: inherit;
+    gap: 1em;
+    padding: 1em;
+  }
+  .whyChooseUs .description .subTitle {
+    color: #ffffff;
+    font-size: 2.5em;
+  }
+  .whyChooseUs .description .welcomeMessage {
+    color: #ffffff;
+    font-size: 1.5em;
+  }
+  .whyChooseUs .description .subText {
+    color: #ffffff;
+  }
+  .whyChooseUs .description .serviceDescription p {
+    color: #ffffff;
+    font-size: 1.125em;
+    line-height: 2em;
+  }
+  .whyChooseUs .description .factCounter {
+    font-size: 3.75em;
+    color: #ffffff;
+    font-weight: 700;
+  }
+  .whyChooseUs .description .factCounter .clientsServed {
+    display: flex;
+  }
+  .whyChooseUs .description .factCounter .experience {
+    display: flex;
+  }
+  .whoIAm {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 2em;
+    margin-right: 2em;
+    justify-items: center;
+    margin-bottom: 7.5em;
+    border-right: #1a6fe1;
+  }
+  .whoIAm .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+  }
+  .whoIAm .description .subTitle {
+    display: flex;
+    align-items: center;
+    color: #1a6fe1;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .whoIAm .description .subTitle .subtitleBorder {
+    position: relative;
+    display: block;
+    background-color: #1a6fe1;
+    width: 1.875em;
+    height: 0.125em;
+    margin-right: 0.625em;
+  }
+  .whoIAm .description .welcomeMessage {
+    color: #011e45;
+    font-size: 2.8125em;
+    line-height: 1.25em;
+    font-weight: 900;
+  }
+  .whoIAm .description p.subText {
+    color: #011e45;
+    font-size: 1.375em;
+    font-weight: 600;
+    line-height: 1.4375em;
+  }
+  .whoIAm .description span.serviceDescription p {
+    color: #444444;
+    font-family: "Barlow", Sans-serif;
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 2em;
+  }
+  .whoIAm .description a.navLink {
+    margin-bottom: 4em;
+    max-width: fit-content;
+  }
+  .whoIAm .description a.navLink .ourServices {
+    background-image: linear-gradient(to right, #e12454 50%, #011e45 50%);
+    background-size: 200% 100%;
+    transition: background-position 0.5s;
+    background-position: 0;
+    color: #ffffff;
+    border: none;
+    padding: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 1.875em;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  .whoIAm .description a.navLink :hover {
+    background-position: 100%;
+    color: #ffffff;
+  }
+  .whoIAm .container .innerImage img {
+    max-width: 100%;
+    transform: scale(1);
+  }
+  .whoIAm .container .innerImage .box1 {
+    position: relative;
+    left: -0.625em;
+    bottom: 1.6875em;
+    width: 5.625em;
+    height: 5.625em;
+    background-color: #7ec4d0;
+    z-index: -1;
+  }
+  .aboutClinic {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1.875em;
+    margin-bottom: 7.5em;
+    border-right: #1a6fe1;
+  }
+  .aboutClinic .description {
+    display: inherit;
+    align-content: center;
+  }
+  .aboutClinic .description .subTitle {
+    display: flex;
+    align-items: center;
+    color: #1a6fe1;
+    font-size: 2em;
+    line-height: 1.25em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .aboutClinic .description .subTitle .subtitleBorder {
+    position: relative;
+    display: block;
+    background-color: #1a6fe1;
+    width: 1.875em;
+    height: 0.125em;
+    margin-right: 0.625em;
+  }
+  .aboutClinic .description .welcomeMessage {
+    color: #011e45;
+    font-size: 2.8125em;
+    line-height: 1.25em;
+    font-weight: 900;
+  }
+  .aboutClinic .description span.serviceDescription p {
+    color: #444444;
+    font-family: "Barlow", Sans-serif;
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 2em;
+  }
+  .aboutClinic .description a.navLink {
+    margin-bottom: 4em;
+    max-width: fit-content;
+  }
+  .aboutClinic .description a.navLink .ourServices {
+    background-image: linear-gradient(to right, #e12454 50%, #011e45 50%);
+    background-size: 200% 100%;
+    transition: background-position 0.5s;
+    background-position: 0;
+    color: #ffffff;
+    border: none;
+    padding: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 1.875em;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  .aboutClinic .description a.navLink :hover {
+    background-position: 100%;
+    color: #ffffff;
+  }
+  .aboutClinic .container {
+    border-bottom: 1px solid gray;
+    margin-bottom: 3em;
+  }
+  .aboutClinic .container .innerImage img {
+    max-width: 100%;
+    transform: scale(1);
+  }
+  .aboutClinic .moreFacts {
+    display: grid;
+    gap: 2em;
+    font-size: 2.5em;
+  }
+  .aboutClinic .moreFacts .factStats {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    color: #1a6fe1;
+  }
+  .aboutClinic .moreFacts .factStats .factStats {
+    width: max-content;
+  }
+  .aboutClinic .moreFacts .factStats .factStats .factTitles {
+    font-size: 0.5em;
+    font-weight: 700;
+  }
+  .aboutClinic .moreFacts i:hover {
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+    transform: scaleX(-1);
+  }
+  .aboutClinic .moreFacts :after {
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+    transform: scaleX(1);
+  }
+  .servingSince {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/stressBall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .servingSince .container {
+    display: grid;
+    gap: 1em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    color: #ffffff;
+    justify-content: center;
+  }
+  .servingSince .container .cta .subtitle {
+    font-size: 3.4375em;
+  }
+  .servingSince .container .buttons a.navLink {
+    margin-bottom: 4em;
+    max-width: fit-content;
+  }
+  .servingSince .container .buttons a.navLink .contactUs {
+    background-image: linear-gradient(to right, #e12454 50%, #011e45 50%);
+    background-size: 200% 100%;
+    transition: background-position 0.5s;
+    background-position: 0;
+    color: #ffffff;
+    border: none;
+    padding: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 1.875em;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  .servingSince .container .buttons a.navLink :hover {
+    background-position: 100%;
+    color: #ffffff;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .aboutClinic {
+    justify-items: center;
+  }
+  .aboutClinic .moreFacts {
+    grid-template-columns: 1fr 1fr;
+    gap: 4em;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .whoWeAre {
+    grid-template-columns: 1fr 1fr;
+  }
+  .whoWeAre .description {
+    padding-left: 1em;
+  }
+  .whyChooseUs {
+    margin-left: 0;
+    margin-right: 0;
+    grid-template-columns: 1fr 1fr;
+  }
+  .whyChooseUs .innerImage {
+    display: contents;
+  }
+  .whyChooseUs .description .factCounter {
+    display: flex;
+    justify-content: space-around;
+  }
+  .whoIAm {
+    grid-template-columns: 1fr 1fr;
+  }
+  .whoIAm .description {
+    padding-left: 1em;
+  }
+  .aboutClinic {
+    grid-template-columns: 1fr 1fr;
+  }
+  .aboutClinic .description {
+    padding-right: 1em;
+  }
+  .aboutClinic .moreFacts {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .aboutClinic .moreFacts {
+    flex-wrap: nowrap;
+  }
+}

@@ -1,0 +1,67 @@
+@media only screen and (min-width: 0px) {
+  .whatWeOffer {
+    display: grid;
+    margin-bottom: 7.5em;
+    justify-items: center;
+  }
+  .whatWeOffer .description {
+    display: inherit;
+    justify-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .whatWeOffer .description .subTitle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #1a6fe1;
+    font-size: 0.9375em;
+    line-height: 1.25em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .whatWeOffer .description .subTitle .subtitleBorder {
+    position: relative;
+    display: block;
+    background-color: #1a6fe1;
+    width: 1.875em;
+    height: 0.125em;
+    margin-right: 0.625em;
+  }
+  .whatWeOffer .description h2 {
+    font-size: 2em;
+    color: #011e45;
+    font-weight: 900;
+  }
+  .whatWeOffer .description .subText p {
+    text-align: center;
+    max-width: 60em;
+    font-size: 1.125em;
+    line-height: 1.875em;
+  }
+  .whatWeOffer .servicesContainer {
+    display: grid;
+    gap: 3em;
+  }
+  .whatWeOffer .servicesContainer ul {
+    list-style: none;
+  }
+  .whatWeOffer .servicesContainer ul li.serviceItem {
+    display: grid;
+    grid-gap: 1em;
+    border: 0.5px solid #7f8b88;
+    border-radius: 0.5em;
+    margin: 1em;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .whatWeOffer .servicesContainer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .whatWeOffer .servicesContainer ul li.serviceItem {
+    max-width: 29%;
+  }
+}

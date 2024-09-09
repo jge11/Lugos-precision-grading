@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alan's Physical Therapy</title>
+    <link rel="stylesheet" href="css/root.css" />
+    <!-- <link rel="stylesheet" href="css/app.css" /> -->
+    <script
+      src="https://kit.fontawesome.com/7235a76d3b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header section start -->
+    <header class="headerSection">
+      <!-- <div class="container"> -->
+      <div class="infoLinks">
+        <p class="headerGreeting">Welcome to Alan's Physical Therapy!</p>
+        <ul class="topHeader">
+          <li class="phoneLink">
+            <p>
+              <i class="fa-solid fa-phone" style="color: #1a6fe1"></i>
+              <a href="tel:+4072057256"><span>Phone:</span> (407)205-7256</a>
+            </p>
+          </li>
+          <li class="emailLink">
+            <p>
+              <i class="fa-solid fa-envelope" style="color: #1a6fe1"></i>
+              <a href="/contact.html"> Book an appointment </a>
+            </p>
+          </li>
+          <li class="faceBookLink">
+            <i class="fa-brands fa-facebook-f"></i>
+          </li>
+          <li class="twitterLink">
+            <i class="fa-brands fa-twitter"></i>
+          </li>
+          <li class="linkedinLink">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </li>
+          <li class="instagramLink">
+            <i class="fa-brands fa-instagram"></i>
+          </li>
+        </ul>
+      </div>
+      <nav class="navBar" id="navBar">
+        <a id="imgLink" href="/index.html" aria-label="Click to go home">
+          <img id="headerImg" src="images/citrusLogo.svg" alt="company-logo" />
+        </a>
+        <div class="navigation">
+          <ul class="navMenu">
+            <li><a class="navLink" href="/index.html">Home</a></li>
+            <li><a class="navLink" href="/about.html">About</a></li>
+            <li><a class="navLink" href="/services.html">Services</a></li>
+            <!-- <li><a class="navLink" href="/reviews.html">Testimonials</a></li> -->
+            <li><a class="navLink" href="/contact.html">Contact</a></li>
+
+            <li class="contactLinks">
+              <p class="emailLink">
+                <i class="fa-regular fa-envelope" style="color: #74c0fc"></i>
+                <a href="mailto:javiergarcia@citrusskywebdesigns.com"
+                  >javiergarcia@citrusskywebdesigns.com
+                </a>
+              </p>
+              <p class="phoneLink">
+                <i class="fa-solid fa-phone" style="color: #74c0fc"></i>
+                <a href="tel:+4072057256">Phone: (407)205-7256</a>
+              </p>
+            </li>
+            <li class="navSocialLinks">
+              <ul>
+                <li class="faceBookLink">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </li>
+                <li class="twitterLink">
+                  <i class="fa-brands fa-twitter"></i>
+                </li>
+                <li class="linkedinLink">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </li>
+                <li class="instagramLink">
+                  <i class="fa-brands fa-instagram"></i>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header section end -->
+    <section class="contactForm">
+      <iframe
+        class="mapShowCase"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d114536.54803629829!2d-81.857777!3d26.2205086!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88db1dd769360663%3A0xd7a3fb99a45d357a!2sCostco%20Wholesale!5e0!3m2!1sen!2sus!4v1724879750484!5m2!1sen!2sus"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <div class="contactContainer">
+        <div class="formContainer" id="formContainer">
+          <form name="hotLead" method="POST" netlify>
+            <h2>Contact Us</h2>
+            <label class="inputFieldHeader">First Name</label>
+            <br />
+            <input
+              type="text"
+              name="fName"
+              value=""
+              id="firstName"
+              for="firstName"
+              aria-placeholder=" Your First Name"
+              placeholder=" Your First Name"
+              required
+            />
+            <br />
+            <label class="inputFieldHeader" for="lastName">Last Name</label
+            ><br />
+            <input
+              type="text"
+              name="lName"
+              id="lastName"
+              required
+              aria-placeholder="Your Last Name"
+              placeholder="Your Last Name"
+            /><br />
+            <label class="inputFieldHeader" for="phoneNumber"
+              >Phone Number</label
+            >
+            <br />
+            <input
+              type="tel"
+              name="phoneNum"
+              value=""
+              id="phoneNumber"
+              aria-placeholder="YourPhone Number"
+              placeholder="Your Phone Number"
+            />
+            <br />
+            <label class="inputFieldHeader" for="email"> Email </label><br />
+            <input
+              type="email"
+              name="email"
+              value=""
+              id="email"
+              required
+              aria-placeholder="Your email address"
+              placeholder="Your email address"
+            /><br />
+            <label class="inputFieldHeader" for="messageText">Message</label
+            ><br />
+            <div class="messageBox">
+              <textarea
+                id="messageText"
+                name="message"
+                aria-placeholder="Write your message..."
+                placeholder="Write your message..."
+              ></textarea>
+            </div>
+            <br />
+            <button type="submit">Get a free quote</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- contact form section end -->
+    <!-- Footer section start -->
+    <footer class="footerSection">
+      <div class="footerContainer">
+        <div class="leftSideFooter">
+          <a href="index.html">
+            <img src="images/darkCitrusLogo.svg" alt="Citrus Logo" />
+          </a>
+          <p class="emailLink">
+            <a href="mailto:javiergarcia@citrusskywebdesigns.com"
+              >Email: javiergarcia@citrusskywebdesigns.com
+            </a>
+          </p>
+          <p class="phoneLink">
+            <a href="tel:+4072057256">Phone: (407)205-7256</a>
+          </p>
+        </div>
+        <div class="rightSideFooter">
+          <ul class="pages">
+            <h2>Navigation</h2>
+            <hr />
+            <a class="navLink" href="/index.html">
+              <li>Home</li>
+            </a>
+            <a class="navLink" href="/about.html">
+              <li>About Us</li>
+            </a>
+            <a class="navLink" href="/services.html">
+              <li>Services</li>
+            </a>
+            <a class="navLink" href="/contact.html">
+              <li>Contact Us</li>
+            </a>
+          </ul>
+
+          <ul class="services">
+            <h2>Services</h2>
+            <hr />
+            <li>Hosting</li>
+            <li>Edits</li>
+            <li>Page Speed Scores</li>
+            <li>Web Development</li>
+            <li>Analytics</li>
+            <li>Support</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copyRight">
+        <p>Copyright©2024|Citrus Sky Web Designs|All Rights Reserved</p>
+      </div>
+    </footer>
+    <!-- Footer section end -->
+    <script src="js/hamburgerMenu.js"></script>
+  </body>
+</html>
