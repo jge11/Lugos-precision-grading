@@ -306,24 +306,26 @@ header {
         button {
           margin-bottom: 64/16em;
           max-width: fit-content;
-          background-image: linear-gradient(to right, #e12454 50%, @black 50%);
+          background-image: linear-gradient(to right, #e2cd1a 50%, @black 50%);
 
           background-size: 200% 100%;
           transition: background-position 0.5s;
           background-position: 0;
-          color: #ffffff;
+          color: #192436;
           border: none;
           padding: 16/16em;
           font-weight: 700;
           text-transform: uppercase;
           letter-spacing: 0.8/16em;
-          border-radius: 30/16em;
+          // border-radius: 30/16em;
           letter-spacing: 1.6/16em;
           cursor: pointer;
           font-size: @defaultFS;
+          font: inter;
         }
         :hover {
           background-position: 100%;
+          color: #ffffff;
         }
       }
     }
@@ -403,8 +405,8 @@ header {
   }
   .contactContainer {
     display: inherit;
-    grid-template-columns: 1fr 1fr;
     gap: 32/16em;
+    width: 100%;
 
     .contactForm {
       .contactInfo {
@@ -422,6 +424,10 @@ header {
 }
 
 @media only screen and (min-width: 1024px) {
+  .contactForm {
+    grid-template-columns: 1fr 1fr;
+  }
+
   .navMenu {
     li.contactLinks {
       display: none;
