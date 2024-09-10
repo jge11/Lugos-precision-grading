@@ -416,7 +416,6 @@ header {
 .footerSection .footerContainer .leftSideFooter {
   display: grid;
   grid-template-columns: 1fr;
-  width: max-content;
   gap: 1em;
   padding-top: 2em;
   padding-bottom: 2em;
@@ -500,9 +499,10 @@ header {
 }
 .footerSection .copyRight {
   display: flex;
+  border-top: 1px solid #ffffff;
   justify-content: center;
   color: #ffffff;
-  background-color: rgba(26, 111, 225, 0.9);
+  background-color: #192436;
 }
 @media only screen and (max-width: 768px) {
   .footerContainer {

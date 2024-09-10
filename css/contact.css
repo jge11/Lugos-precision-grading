@@ -1,0 +1,29 @@
+@media only screen and (min-width: 0px) {
+  .companyBanner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/contactHeaderImg.svg);
+    background-size: cover;
+  }
+  .companyBanner .companyContainer {
+    display: grid;
+    justify-items: center;
+    color: #ffffff;
+    padding-top: 11.75em;
+    padding-bottom: 11.75em;
+  }
+  .companyBanner .companyContainer h1 {
+    font-size: 4.125em;
+  }
+  .companyBanner .companyContainer p {
+    font-size: 1.125em;
+    max-width: 45em;
+    text-align: center;
+  }
+  .companyBanner .companyContainer button {
+    background-color: #e2cd1a;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.375em;
+    font-size: 1.25em;
+    gap: 0.625em;
+  }
+}
