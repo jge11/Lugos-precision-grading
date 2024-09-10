@@ -25,7 +25,7 @@ document.addEventListener("scroll", () => {
   let scrollPos = window.scrollY;
 
   if (scrollPos > 40) {
-    nav.style.backgroundColor = "rgba(26, 111, 225, .90)";
+    nav.style.backgroundColor = "rgba(25, 36, 54, .95)";
     menuLinks.forEach((link) => {
       link.style.color = "#ffffff";
     });

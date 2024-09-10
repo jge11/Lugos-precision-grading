@@ -224,7 +224,6 @@ header {
     display: none;
   }
   .contactForm {
-    background-image: linear-gradient(180deg, #f4f5f9 0%, #f4f5f9 100%);
     display: grid;
     grid-template-columns: 1fr;
     padding-left: 1em;
@@ -245,10 +244,9 @@ header {
   }
   .contactForm .formContainer form input {
     width: 100%;
-    border: 0px;
-    border-bottom: 1px solid black;
     padding-bottom: 1em;
-    background-color: transparent;
+    border-color: #a4a4a4;
+    border-radius: 10px;
   }
   .contactForm .formContainer form .messageBox {
     display: grid;
@@ -257,11 +255,11 @@ header {
   }
   .contactForm .formContainer form .messageBox #messageText {
     background-color: transparent;
-    border: none;
-    border-bottom: 1px solid;
     outline: none;
     resize: none;
     height: 6em;
+    border-color: #a4a4a4;
+    border-radius: 10px;
   }
   .contactForm .formContainer form button {
     margin-bottom: 4em;
@@ -281,7 +279,7 @@ header {
     font-size: 1em;
     font: inter;
   }
-  .contactForm .formContainer form :hover {
+  .contactForm .formContainer form button:hover {
     background-position: 100%;
     color: #ffffff;
   }
@@ -409,7 +407,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #06142a;
+  background: #192436;
 }
 .footerSection .footerContainer .leftSideFooter {
   display: grid;
@@ -440,7 +438,7 @@ header {
   padding-right: 3em;
 }
 .footerSection .footerContainer .rightSideFooter ul.pages h2 {
-  color: #faad00;
+  color: #e2cd1a;
 }
 .footerSection .footerContainer .rightSideFooter ul.pages li {
   list-style: none;
@@ -456,9 +454,10 @@ header {
 }
 .footerSection .footerContainer .rightSideFooter ul.services {
   padding-right: 3em;
+  border-left: 1px solid red;
 }
 .footerSection .footerContainer .rightSideFooter ul.services h2 {
-  color: #faad00;
+  color: #e2cd1a;
 }
 .footerSection .footerContainer .rightSideFooter ul.services li {
   list-style: none;

@@ -264,7 +264,6 @@ header {
     display: none;
   }
   .contactForm {
-    background-image: linear-gradient(180deg, #f4f5f9 0%, #f4f5f9 100%);
     display: grid;
     grid-template-columns: 1fr;
     padding-left: 16/16em;
@@ -284,10 +283,9 @@ header {
         }
         input {
           width: 100%;
-          border: 0px;
-          border-bottom: 1px solid black;
-          padding-bottom: 1em;
-          background-color: transparent;
+          padding-bottom: 16/16em;
+          border-color: #a4a4a4;
+          border-radius: 10px;
         }
         .messageBox {
           display: grid;
@@ -296,11 +294,11 @@ header {
 
           #messageText {
             background-color: transparent;
-            border: none;
-            border-bottom: 1px solid;
             outline: none;
             resize: none;
             height: 96/16em;
+            border-color: #a4a4a4;
+            border-radius: 10px;
           }
         }
         button {
@@ -323,7 +321,7 @@ header {
           font-size: @defaultFS;
           font: inter;
         }
-        :hover {
+        button:hover {
           background-position: 100%;
           color: #ffffff;
         }
@@ -485,7 +483,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #06142a;
+    background: #192436;
 
     .leftSideFooter {
       display: grid;
@@ -516,7 +514,7 @@ header {
       ul.pages {
         padding-right: 3em;
         h2 {
-          color: #faad00;
+          color: #e2cd1a;
         }
         li {
           list-style: none;
@@ -534,8 +532,9 @@ header {
 
       ul.services {
         padding-right: 3em;
+        border-left: 1px solid red;
         h2 {
-          color: #faad00;
+          color: #e2cd1a;
         }
         li {
           list-style: none;
