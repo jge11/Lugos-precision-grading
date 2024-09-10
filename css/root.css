@@ -105,6 +105,7 @@ header {
     padding-right: 1.5em;
     transition: 0.3s;
     font-size: 1.25em;
+    background: #192436;
   }
   nav li {
     font-size: 1.25em;
@@ -250,7 +251,6 @@ header {
   }
   .contactForm .formContainer form .messageBox {
     display: grid;
-    padding: 0.5em;
     width: 100%;
   }
   .contactForm .formContainer form .messageBox #messageText {

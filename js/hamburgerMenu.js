@@ -21,23 +21,6 @@ document.querySelectorAll(".navLink").forEach((n) =>
   })
 );
 
-document.addEventListener("scroll", () => {
-  let scrollPos = window.scrollY;
-
-  if (scrollPos > 40) {
-    nav.style.backgroundColor = "rgba(25, 36, 54, .95)";
-    menuLinks.forEach((link) => {
-      link.style.color = "#ffffff";
-    });
-    // debugger;
-  } else {
-    nav.style.backgroundColor = "transparent";
-    menuLinks.forEach((link) => {
-      link.style.color = "#000000";
-    });
-  }
-});
-
 const customCount = document.querySelectorAll(".counter");
 
 customCount.forEach((counter) => {
