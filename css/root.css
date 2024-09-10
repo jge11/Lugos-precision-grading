@@ -320,6 +320,10 @@ header {
     color: #ffffff;
     font-size: 1.25em;
   }
+  .contactForm .map {
+    width: 100%;
+    height: 100%;
+  }
 }
 @media only screen and (max-width: 320px) {
   nav .navMenu.active {
