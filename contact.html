@@ -83,65 +83,50 @@
       <div class="contactContainer">
         <div class="formContainer" id="formContainer">
           <form name="hotLead" method="POST" netlify>
-            <h2>Contact Us</h2>
-            <label class="inputFieldHeader">First Name</label>
-            <br />
-            <input
-              type="text"
-              name="fName"
-              value=""
-              id="firstName"
-              for="firstName"
-              aria-placeholder="First Name"
-              placeholder="First Name"
-              required
-            />
-            <br />
-            <label class="inputFieldHeader" for="lastName">Last Name</label
-            ><br />
-            <input
-              type="text"
-              name="lName"
-              id="lastName"
-              required
-              aria-placeholder="Last Name"
-              placeholder="Last Name"
-            /><br />
-            <label class="inputFieldHeader" for="phoneNumber"
-              >Phone Number</label
-            >
-            <br />
-            <input
-              type="tel"
-              name="phoneNum"
-              value=""
-              id="phoneNumber"
-              aria-placeholder="Phone Number"
-              placeholder="Phone Number"
-            />
-            <br />
-            <label class="inputFieldHeader" for="email"> Email </label><br />
-            <input
-              type="email"
-              name="email"
-              value=""
-              id="email"
-              required
-              aria-placeholder="Email address"
-              placeholder="Email address"
-            /><br />
-            <label class="inputFieldHeader" for="messageText">Message</label
-            ><br />
-            <div class="messageBox">
-              <textarea
-                id="messageText"
-                name="message"
-                aria-placeholder="Write your message..."
-                placeholder="Write your message..."
-              ></textarea>
+            <div class="inputContainer">
+              <label class="inputFieldHeader" for="firstName">First Name</label>
+              <input
+                type="text"
+                name="fName"
+                value=""
+                id="firstName"
+                required
+              />
+
+              <label class="inputFieldHeader" for="lastName">Last Name</label>
+              <input type="text" name="lName" id="lastName" required />
+              <label class="inputFieldHeader" for="phoneNumber"
+                >Phone Number</label
+              >
+              <input type="text" name="phoneNum" value="" id="phoneNumber" />
+
+              <label class="inputFieldHeader" for="email">Email</label>
+              <input type="text" name="email" value="" id="email" required />
+              <!-- <div class="formRadioBtn">
+              <input type="radio" name="uiUx" value="" id="uiUx"  />
+              <label class="inputFieldHeader" for="uiUx">Ui/Ux Design</label>
+
+              <input type="radio" name="appDesign" value="" id="appDesign"  />
+              <label class="inputFieldHeader" for="uiUx">App design</label>
+
+              <input type="radio" name="webHosting" value="" id="webHosting"  />
+              <label class="inputFieldHeader" for="webHosting">Web Hosting</label>
+
+              <input type="radio" name="webDevelopment" value="" id="webDevelopment"  />
+              <label class="inputFieldHeader" for="webDevelopment">Web Development</label>
+            </div> -->
+              <label class="inputFieldHeader" for="messageText">Message</label>
+              <div class="messageBox">
+                <textarea
+                  id="messageText"
+                  name="message"
+                  placeholder="Write your message here"
+                  required
+                ></textarea>
+              </div>
             </div>
-            <br />
-            <button type="submit">Get a free quote</button>
+
+            <button type="submit">Send Message</button>
           </form>
         </div>
       </div>
