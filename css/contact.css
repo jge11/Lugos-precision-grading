@@ -1,6 +1,6 @@
 @media only screen and (min-width: 0px) {
   .companyBanner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/contactHeaderImg.svg);
+    background-image: linear-gradient(rgba(25, 36, 54, 0.8), rgba(25, 36, 54, 0.64)), url(../images/contactHeaderImg.svg);
     background-size: cover;
   }
   .companyBanner .companyContainer {
@@ -9,9 +9,14 @@
     color: #ffffff;
     padding-top: 11.75em;
     padding-bottom: 11.75em;
+    gap: 2em;
   }
   .companyBanner .companyContainer h1 {
+    text-align: center;
     font-size: 4.125em;
+  }
+  .companyBanner .companyContainer h1 span {
+    background-color: rgba(226, 205, 26, 0.5);
   }
   .companyBanner .companyContainer p {
     font-size: 1.125em;
@@ -25,5 +30,12 @@
     padding: 0.375em;
     font-size: 1.25em;
     gap: 0.625em;
+    width: 50%;
+    height: 3.375em;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .companyBanner .companyContainer button {
+    width: 20%;
   }
 }
