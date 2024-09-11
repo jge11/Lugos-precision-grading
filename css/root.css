@@ -238,9 +238,12 @@ header {
     gap: 2em;
     width: 100%;
   }
+  .contactForm .formContainer form {
+    display: grid;
+  }
   .contactForm .formContainer form h2 {
     padding-bottom: 0.5em;
-    color: #1a6fe1;
+    color: #000000;
   }
   .contactForm .formContainer form input {
     width: 100%;
