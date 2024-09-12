@@ -1,0 +1,88 @@
+@media only screen and (min-width: 0px) {
+  .companyBanner {
+    background-image: linear-gradient(rgba(25, 36, 54, 0.8), rgba(25, 36, 54, 0.64)), url(../images/projectsBanner.svg);
+    background-size: cover;
+  }
+  .companyBanner .companyContainer {
+    display: grid;
+    justify-items: center;
+    color: #ffffff;
+    padding-top: 11.75em;
+    padding-bottom: 11.75em;
+    gap: 2em;
+  }
+  .companyBanner .companyContainer h1 {
+    text-align: center;
+    font-size: 4.125em;
+  }
+  .companyBanner .companyContainer h1 span {
+    background-color: rgba(226, 205, 26, 0.5);
+  }
+  .companyBanner .companyContainer p {
+    font-size: 1.125em;
+    max-width: 45em;
+    text-align: center;
+  }
+  .companyBanner .companyContainer button {
+    background-color: #e2cd1a;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.375em;
+    font-size: 1.25em;
+    gap: 0.625em;
+    width: 50%;
+    height: 3.375em;
+  }
+  .projectsContainer .servicesContainer {
+    display: grid;
+    gap: 3em;
+  }
+  .projectsContainer .servicesContainer ul {
+    list-style: none;
+  }
+  .projectsContainer .servicesContainer ul li.serviceItem {
+    display: grid;
+    grid-gap: 1em;
+    border-radius: 0.5em;
+    margin: 1em;
+  }
+  .projectsContainer .servicesContainer ul li.serviceItem img {
+    border-radius: 0.625em;
+  }
+  .projectsContainer .servicesContainer ul li.serviceItem .descriptionContainer {
+    display: grid;
+    gap: 1em;
+  }
+  .projectsContainer .servicesContainer ul li.serviceItem .descriptionContainer h2 {
+    font-size: 1.75em;
+  }
+  .projectsContainer .servicesContainer ul li.serviceItem .descriptionContainer .briefDescription {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #707070;
+    font-size: 1.125em;
+  }
+  .projectsContainer .servicesContainer ul li.serviceItem .descriptionContainer a {
+    max-width: fit-content;
+  }
+  .projectsContainer .servicesContainer ul li.serviceItem .descriptionContainer a .learnMoreBtn {
+    cursor: pointer;
+    border: 1px solid #303030;
+    background: rgba(226, 205, 26, 0.16);
+    padding: 16px;
+    transition: all, 0.5s ease-in-out;
+  }
+  .projectsContainer .servicesContainer ul li.serviceItem .descriptionContainer a :hover {
+    background: #192436;
+    color: #e2cd1a;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .servicesContainer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .servicesContainer ul li.serviceItem {
+    max-width: 45%;
+  }
+}
