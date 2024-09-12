@@ -49,6 +49,32 @@
   .projectsContainer .servicesContainer ul li.serviceItem img {
     border-radius: 0.625em;
   }
+  .projectsContainer .servicesContainer ul li.serviceItem .descriptionContainer {
+    display: grid;
+    gap: 1em;
+  }
+  .projectsContainer .servicesContainer ul li.serviceItem .descriptionContainer h2 {
+    font-size: 1.75em;
+  }
+  .projectsContainer .servicesContainer ul li.serviceItem .descriptionContainer .briefDescription {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #707070;
+    font-size: 1.125em;
+  }
+  .projectsContainer .servicesContainer ul li.serviceItem .descriptionContainer a {
+    max-width: fit-content;
+  }
+  .projectsContainer .servicesContainer ul li.serviceItem .descriptionContainer a .learnMoreBtn {
+    cursor: pointer;
+    border: 1px solid #303030;
+    background: rgba(226, 205, 26, 0.16);
+    padding: 16px;
+    transition: all, 0.5s ease-in-out;
+  }
+  .projectsContainer .servicesContainer ul li.serviceItem .descriptionContainer a :hover {
+    background: #192436;
+    color: #e2cd1a;
+  }
 }
 @media only screen and (min-width: 768px) {
   .servicesContainer ul {

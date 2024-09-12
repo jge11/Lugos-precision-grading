@@ -48,10 +48,35 @@
           display: grid;
           grid-gap: 16/16em;
           border-radius: 8/16em;
-          // justify-items: center;
           margin: 16/16em;
           img {
             border-radius: 10/16em;
+          }
+          .descriptionContainer {
+            display: grid;
+            gap: 16/16em;
+            h2 {
+              font-size: 28/16em;
+            }
+            .briefDescription {
+              font-family: Georgia, "Times New Roman", Times, serif;
+              color: rgba(112, 112, 112, 1);
+              font-size: 18/16em;
+            }
+            a {
+              max-width: fit-content;
+              .learnMoreBtn {
+                cursor: pointer;
+                border: 1px solid rgba(48, 48, 48, 1);
+                background: rgba(226, 205, 26, 0.16);
+                padding: 16px;
+                transition: all, 0.5s ease-in-out;
+              }
+              :hover {
+                background: #192436;
+                color: #e2cd1a;
+              }
+            }
           }
         }
       }
