@@ -1,0 +1,102 @@
+@media only screen and (min-width: 0) {
+  .companyBanner {
+    background-image: linear-gradient(
+        rgba(25, 36, 54, 0.8),
+        rgba(25, 36, 54, 0.64)
+      ),
+      url(../images/projectsBanner.svg);
+    background-size: cover;
+
+    .companyContainer {
+      display: grid;
+      justify-items: center;
+      color: #ffffff;
+      padding-top: 188/16em;
+      padding-bottom: 188/16em;
+      gap: 32/16em;
+      h1 {
+        text-align: center;
+        font-size: 66/16em;
+        span {
+          background-color: rgba(226, 205, 26, 0.5);
+        }
+      }
+      p {
+        font-size: 18/16em;
+        max-width: 720/16em;
+        text-align: center;
+      }
+      button {
+        background-color: #e2cd1a;
+        border: none;
+        border-radius: 8/16em;
+        padding: 6/16em;
+        font-size: 20/16em;
+        gap: 10/16em;
+        width: 50%;
+        height: 54/16em;
+      }
+    }
+  }
+  .services {
+    .container {
+      padding-top: 48/16em;
+      padding-bottom: 48/16em;
+
+      .description {
+        .serviceTitle {
+          font-size: 40px;
+          color: #202020;
+        }
+
+        .serviceDescription {
+          color: #707070;
+        }
+      }
+      img {
+        padding: 8/16em;
+        border-radius: 16/16em;
+      }
+      .getQuoteBtn {
+        background-color: #e2cd1a;
+        color: #192436;
+        border: none;
+        border-radius: 0.5em;
+        padding: 0.375em;
+        font-size: 1.25em;
+        gap: 0.625em;
+        height: 3.375em;
+      }
+    }
+    .container#sitePrep {
+      background-color: #fafbfb;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .services {
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      justify-items: center;
+      padding-left: 20/16em;
+      padding-right: 20/16em;
+
+      .description {
+        margin-left: 20/16em;
+      }
+    }
+    .boxOne {
+      position: relative;
+      left: 0em;
+      float: right;
+      bottom: 30em;
+      width: 17.625em;
+      height: 19.625em;
+      background-color: #192436;
+      z-index: -1;
+    }
+  }
+}
