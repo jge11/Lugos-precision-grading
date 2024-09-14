@@ -20,7 +20,10 @@
     padding: 0.5em;
     border-radius: 1em;
   }
-  .services .container .getQuoteBtn {
+  .services .container a {
+    width: fit-content;
+  }
+  .services .container a .getQuoteBtn {
     background-color: #e2cd1a;
     color: #192436;
     border: none;

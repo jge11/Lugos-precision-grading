@@ -6,79 +6,25 @@
 
 @media only screen and (min-width: 0) {
   // landing Section start
-  .landingSection {
-    font-family: @font-style;
-    width: 100%;
-    height: auto;
-    margin-bottom: 120/16em;
-    .heroSection {
-      color: #ffffff;
-      // background-color: #7a4848;
-      background-image: linear-gradient(
-          rgba(0, 0, 0, 0.25),
-          rgba(0, 0, 0, 0.25)
-        ),
-        url(../images/ptRopeExercise.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      // background-blend-mode: multiply;
-
-      .companyMessage {
-        display: grid;
-        gap: 16/16em;
-        padding-top: 80/16em;
-        padding-left: 8/16em;
-        padding-right: 8/16em;
-
-        .cta {
-          display: grid;
-          gap: 16/16em;
-          #subTitle {
-            color: @subTitle;
-            max-width: fit-content;
-            // border-right: ;
-            padding-bottom: 16/16em;
-          }
-
-          #title {
-            max-width: fit-content;
-          }
-          #messageSubText {
-            max-width: 320/16em;
-          }
-        }
-        .navLink {
-          margin-bottom: 64/16em;
-          max-width: fit-content;
-          .contactUs {
-            background-image: linear-gradient(
-              to right,
-              #e12454 50%,
-              @black 50%
-            );
-
-            background-size: 200% 100%;
-            transition: background-position 0.5s;
-            background-position: 0;
-            color: #ffffff;
-            border: none;
-            padding: 16/16em;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.8/16em;
-            border-radius: 0;
-            cursor: pointer;
-            // transition: all, 1s, ease;
-          }
-          :hover {
-            background-position: 100%;
-            color: #ffffff;
-          }
+  .companyBanner {
+    .companyContainer {
+      a {
+        width: 50%;
+        button.letsConnectBtn {
+          color: #ffffff;
+          background-color: rgba(255, 255, 255, 0.16);
+          border: 2/16em solid rgba(255, 255, 255, 1);
+          border-radius: 8/16em;
+          padding: 6/16em;
+          font-size: 20/16em;
+          gap: 10/16em;
+          width: auto;
+          height: 54/16em;
         }
       }
     }
   }
+
   // landing Section end
 
   // Who we are Section start
