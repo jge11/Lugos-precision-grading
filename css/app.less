@@ -6,468 +6,148 @@
 
 @media only screen and (min-width: 0) {
   // landing Section start
-  .landingSection {
-    font-family: @font-style;
-    width: 100%;
-    height: auto;
-    margin-bottom: 120/16em;
-    .heroSection {
-      color: #ffffff;
-      // background-color: #7a4848;
-      background-image: linear-gradient(
-          rgba(0, 0, 0, 0.25),
-          rgba(0, 0, 0, 0.25)
-        ),
-        url(../images/ptRopeExercise.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      // background-blend-mode: multiply;
-
-      .companyMessage {
-        display: grid;
-        gap: 16/16em;
-        padding-top: 80/16em;
-        padding-left: 8/16em;
-        padding-right: 8/16em;
-
-        .cta {
-          display: grid;
-          gap: 16/16em;
-          #subTitle {
-            color: @subTitle;
-            max-width: fit-content;
-            // border-right: ;
-            padding-bottom: 16/16em;
-          }
-
-          #title {
-            max-width: fit-content;
-          }
-          #messageSubText {
-            max-width: 320/16em;
-          }
+  .companyBanner {
+    .companyContainer {
+      .btns {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        gap: 48/16em;
+        button {
+          width: 100%;
         }
-        .navLink {
-          margin-bottom: 64/16em;
-          max-width: fit-content;
-          .contactUs {
-            background-image: linear-gradient(
-              to right,
-              #e12454 50%,
-              @black 50%
-            );
-
-            background-size: 200% 100%;
-            transition: background-position 0.5s;
-            background-position: 0;
+        a {
+          width: -webkit-fill-available;
+          button.letsConnectBtn {
             color: #ffffff;
-            border: none;
-            padding: 16/16em;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.8/16em;
-            border-radius: 0;
-            cursor: pointer;
-            // transition: all, 1s, ease;
-          }
-          :hover {
-            background-position: 100%;
-            color: #ffffff;
+            background-color: rgba(255, 255, 255, 0.16);
+            border: 2/16em solid rgba(255, 255, 255, 1);
+            border-radius: 8/16em;
+            padding: 6/16em;
+            font-size: 20/16em;
+            gap: 10/16em;
+            width: 100%;
+            height: 54/16em;
           }
         }
       }
     }
   }
+
   // landing Section end
 
   // Who we are Section start
-  .whoWeAre {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-left: 16/16em;
-    margin-right: 16/16em;
-    justify-items: center;
-    margin-bottom: 120/16em;
-    border-right: #1a6fe1;
-    .description {
-      display: inherit;
-      gap: 1em;
-
-      .subTitle {
-        display: flex;
-        align-items: center;
-        color: @subTitle;
-        font-size: @defaultFS;
-        line-height: 20/16em;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 0.8/16em;
-        .subtitleBorder {
-          position: relative;
-          display: block;
-          background-color: #1a6fe1;
-          width: 30/16em;
-          height: 2/16em;
-          margin-right: 10/16em;
-        }
-      }
-      .welcomeMessage {
-        color: @black;
-        font-size: 28/16em;
-        line-height: 20/16em;
-        font-weight: 900;
-      }
-      p.subText {
-        color: @black;
-        font-size: 20/16em;
-        font-weight: 600;
-        line-height: 23/16em;
-      }
-      span.serviceDescription p {
-        color: #444444;
-        font-family: "Barlow", Sans-serif;
-        font-size: 18/16em;
-        font-weight: 400;
-        line-height: 32/16em;
-      }
-      a.navLink {
-        margin-bottom: 64/16em;
-        max-width: fit-content;
-        .ourServices {
-          background-image: linear-gradient(to right, #e12454 50%, @black 50%);
-
-          background-size: 200% 100%;
-          transition: background-position 0.5s;
-          background-position: 0;
-          color: #ffffff;
-          border: none;
-          padding: 16/16em;
-          font-weight: 700;
-          text-transform: uppercase;
-          letter-spacing: 0.8/16em;
-          border-radius: 30/16em;
-          letter-spacing: 1.6/16em;
-          cursor: pointer;
-          font-size: @defaultFS;
-        }
-        :hover {
-          background-position: 100%;
-          color: #ffffff;
-        }
-      }
+  .services {
+    .backgroundImage {
+      position: absolute;
+      z-index: -999;
     }
     .container {
-      .innerImage {
-        img {
-          max-width: 100%;
-          transform: scale(1);
+      padding-top: 48/16em;
+      padding-bottom: 48/16em;
+
+      .description {
+        display: grid;
+        gap: 16/16em;
+        padding: 16/16em;
+        .serviceTitle {
+          font-size: 40/16em;
+          color: #202020;
         }
-        .box1 {
-          position: relative;
-          left: -10/16em;
-          bottom: 27/16em;
-          width: 90/16em;
-          height: 90/16em;
-          background-color: #7ec4d0;
-          z-index: -1;
+
+        .serviceDescription {
+          line-height: 24/16em;
+          color: #707070;
+        }
+
+        .quoteServicesBtns {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 48/16em;
+
+          a {
+            width: -webkit-fill-available;
+            button {
+              width: 100%;
+              color: #192436;
+              border-radius: 0.5em;
+              padding: 0.375em;
+              font-size: 18.4/16em;
+              gap: 0.625em;
+              height: 38/16em;
+            }
+            .getQuoteBtn {
+              background-color: #e2cd1a;
+              border: none;
+            }
+            .learnMoreBtn {
+              background-color: rgba(226, 205, 26, 0.16);
+              border: 2/16em solid #303030;
+            }
+          }
         }
       }
+      img {
+        padding: 8/16em;
+        border-radius: 16/16em;
+      }
+    }
+    .container#sitePrep {
+      background-color: #ffffff;
     }
   }
   // Who we are Section end
 
-  // Why choose us Section start
-  .whyChooseUs {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-bottom: 80/16em;
-    align-items: center;
-    background-color: #0cb2cf;
-    // gap: 16/16em;
-    margin-bottom: 120/16em;
-
-    .innerImage {
-      display: none;
-      img {
-        height: 100%;
-      }
-    }
-
-    .description {
-      display: inherit;
-      gap: 16/16em;
-      padding: 16/16em;
-
-      .subTitle {
-        color: #ffffff;
-        font-size: 40/16em;
-      }
-
-      .welcomeMessage {
-        color: #ffffff;
-        font-size: 24/16em;
-      }
-      .subText {
-        color: #ffffff;
-      }
-      .serviceDescription p {
-        color: #ffffff;
-        font-size: 18/16em;
-        line-height: @lineHeight;
-      }
-
-      .factCounter {
-        font-size: 60/16em;
-        color: #ffffff;
-        .clientsServed {
-          display: flex;
-        }
-        .experience {
-          display: flex;
-        }
-      }
-    }
-  }
-  // Why choose us Section end
-  // who we are section start
-  .whatWeOffer {
-    display: grid;
-    margin-bottom: 120/16em;
-    .description {
-      display: inherit;
-      justify-items: center;
-      padding-left: 16/16em;
-      padding-right: 16/16em;
-      .subTitle {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        color: #1a6fe1;
-        font-size: 15/16em;
-        line-height: 20/16em;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 0.8/16em;
-        .subtitleBorder {
-          position: relative;
-          display: block;
-          background-color: #1a6fe1;
-          width: 30/16em;
-          height: 2/16em;
-          margin-right: 10/16em;
-        }
-      }
-      h2 {
-        font-size: 32/16em;
-        color: @black;
-        font-weight: 900;
-      }
-      .subText {
-        p {
-          max-width: 960/16em;
-          font-size: 18/16em;
-          line-height: 30/16em;
-          text-align: left;
-        }
-      }
-    }
-    .carouselContainer {
-      position: relative;
-      display: flex;
-      height: 300px;
-      overflow: hidden;
-      border: 1px solid red;
-      .carouselItem {
-        width: 100%;
-        height: 100%;
-        flex-shrink: 0;
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
-      }
-    }
-  }
-  // who we are section end
-  // Benefits of PT start
-  .benefitsOfPt {
-    display: grid;
-    margin-bottom: 120/16em;
-    grid-template-columns: 1fr;
-    margin-bottom: 80/16em;
-    align-items: center;
-    background-image: linear-gradient(180deg, #f4f5f9 0%, #f4f5f9 100%);
-    // gap: 16/16em;
-
-    .description {
-      display: inherit;
-      gap: 16/16em;
-      padding: 16/16em;
-
-      .subTitle {
-        font-size: 40/16em;
-        .subtitleBottomBorder {
-          position: relative;
-          display: block;
-          background-color: @black;
-          width: 1.875em;
-          height: 0.125em;
-          margin-right: 0.625em;
-        }
-      }
-
-      .welcomeMessage {
-        color: #ffffff;
-        font-size: 24/16em;
-      }
-      .subText {
-        color: #ffffff;
-      }
-      .serviceDescription p {
-        color: #ffffff;
-        font-size: 18/16em;
-        line-height: @lineHeight;
-      }
-
-      .factCounter {
-        font-size: 60/16em;
-        color: #ffffff;
-        .clientsServed {
-          display: flex;
-        }
-        .experience {
-          display: flex;
-        }
-      }
-      .navLink {
-        margin-bottom: 64/16em;
-        max-width: fit-content;
-        .viewServices {
-          background-image: linear-gradient(to right, #e12454 50%, @black 50%);
-
-          background-size: 200% 100%;
-          transition: background-position 0.5s;
-          background-position: 0;
-          color: #ffffff;
-          border: none;
-          padding: 16/16em;
-          font-weight: 700;
-          text-transform: uppercase;
-          letter-spacing: 0.8/16em;
-          border-radius: 0;
-          cursor: pointer;
-          // transition: all, 1s, ease;
-        }
-        :hover {
-          background-position: 100%;
-          color: #ffffff;
-        }
-      }
-    }
-    .innerImage {
-      img {
-        height: 100%;
-      }
-    }
-  }
-  // Benefits of PT end
-  // statistics section start
-  .statistics {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-left: 16/16em;
-    margin-right: 16/16em;
-    justify-items: center;
-    margin-top: 30/16em;
-    margin-bottom: 120/16em;
-    border-right: #1a6fe1;
-    .description {
-      display: inherit;
-      align-content: center;
-      .subTitle {
-        display: flex;
-        align-items: center;
-        color: @subTitle;
-        font-size: 32/16em;
-        line-height: 20/16em;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 0.8/16em;
-        .subtitleBorder {
-          position: relative;
-          display: block;
-          background-color: #1a6fe1;
-          width: 30/16em;
-          height: 2/16em;
-          margin-right: 10/16em;
-        }
-      }
-      .welcomeMessage {
-        color: @black;
-        font-size: 45/16em;
-        line-height: 20/16em;
-        font-weight: 900;
-      }
-      // p.subText {
-      //   color: @black;
-      //   font-size: 20/16em;
-      //   font-weight: 600;
-      //   line-height: 23/16em;
-      // }
-      span.serviceDescription p {
-        color: #444444;
-        font-family: "Barlow", Sans-serif;
-        font-size: 18/16em;
-        font-weight: 400;
-        line-height: 32/16em;
-      }
-      a.navLink {
-        margin-bottom: 64/16em;
-        max-width: fit-content;
-        .ourServices {
-          background-image: linear-gradient(to right, #e12454 50%, @black 50%);
-
-          background-size: 200% 100%;
-          transition: background-position 0.5s;
-          background-position: 0;
-          color: #ffffff;
-          border: none;
-          padding: 16/16em;
-          font-weight: 700;
-          text-transform: uppercase;
-          letter-spacing: 0.8/16em;
-          border-radius: 30/16em;
-          letter-spacing: 1.6/16em;
-          cursor: pointer;
-          font-size: @defaultFS;
-        }
-        :hover {
-          background-position: 100%;
-          color: #ffffff;
-        }
-      }
-    }
+  //Our core services start
+  .coreServices {
+    background-color: #fbfbfb;
     .container {
-      .innerImage {
-        img {
-          max-width: 100%;
-          transform: scale(1);
+      display: flex;
+      flex-direction: column;
+      gap: 48/16em;
+      margin-top: 48/16em;
+      margin-bottom: 48/16em;
+      .backgroundImage {
+        position: absolute;
+        z-index: -999;
+        // width: 85%;
+      }
+      .cardContainer {
+        border: 2/16em solid #d6eae5;
+        border-radius: 16/16em;
+        background-color: #ffffff;
+        .description {
+          display: grid;
+          gap: 16/16em;
         }
-        .box1 {
-          position: relative;
-          left: -10/16em;
-          bottom: 27/16em;
-          width: 90/16em;
-          height: 90/16em;
-          background-color: #7ec4d0;
-          z-index: -1;
+        img {
+          border-radius: 32/16em;
+          padding: 16/16em;
+        }
+        a {
+          button {
+            width: 40%;
+            color: #192436;
+            border-radius: 0.5em;
+            padding: 0.375em;
+            font-size: 18.4/16em;
+            gap: 0.625em;
+            height: 38/16em;
+          }
+          .getQuoteBtn {
+            background-color: #e2cd1a;
+            border: none;
+          }
+          .learnMoreBtn {
+            background-color: rgba(226, 205, 26, 0.16);
+            border: 2/16em solid #303030;
+          }
         }
       }
     }
   }
-  // statistics section end
+  //Our core services end
 }
 
 @media only screen and (min-width: 768px) {
@@ -492,52 +172,72 @@
       }
     }
   }
-  .whatWeOffer {
-    .carouselContainer {
-      width: 600px;
-      ul {
-        display: flex;
+}
+
+@media only screen and (min-width: 1024px) {
+  .services {
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      justify-items: center;
+      padding-left: 20/16em;
+      padding-right: 20/16em;
+      width: 100%;
+
+      .description {
+        margin-left: 20/16em;
+      }
+    }
+    .boxOne {
+      position: absolute;
+      left: 0em;
+      float: left;
+      width: 17.625em;
+      height: 19.625em;
+      background-color: #192436;
+      z-index: -1;
+    }
+  }
+
+  //Our core services start
+  .coreServices {
+    .container {
+      flex-direction: row;
+    }
+  }
+  //Our core services end
+}
+
+@media only screen and(min-width: 1440px) and( max-width: 2120px) {
+  .coreServices {
+    .container {
+      .backgroundImage {
+        width: 80%;
       }
     }
   }
 }
 
-@media only screen and(min-width: 1024px) {
-  .whoWeAre {
-    grid-template-columns: 1fr 1fr;
-    .description {
-      padding-right: 16/16em;
-    }
+@media only screen and (min-width: 2560px) {
+  button {
+    font-size: 24/16em !important;
   }
-
-  .whyChooseUs {
-    margin-left: 0;
-    margin-right: 0;
-    grid-template-columns: 1fr 1fr;
-    .innerImage {
-      display: contents;
-    }
-    .description {
-      .factCounter {
-        display: flex;
-        justify-content: space-around;
+  .services {
+    .servicesContainer {
+      .backgroundImage {
+        width: -webkit-fill-available;
       }
     }
   }
-
-  .benefitsOfPt {
-    margin-left: 0;
-    margin-right: 0;
-    grid-template-columns: 1fr 1fr;
-    .innerImage {
-      display: contents;
-    }
-  }
-
-  .statistics {
-    grid-template-columns: 1fr 1fr;
+  .cardContainer {
     .description {
-      padding-right: 16/16em;
+      h1 {
+        font-size: 40/16em !important;
+      }
+      p {
+        font-size: 24/16em;
+      }
     }
   }
 }

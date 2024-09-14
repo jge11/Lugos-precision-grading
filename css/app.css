@@ -1,402 +1,124 @@
 @media only screen and (min-width: 0) {
-  .landingSection {
-    font-family: "" Jost ", sans-serif";
-    width: 100%;
-    height: auto;
-    margin-bottom: 7.5em;
-  }
-  .landingSection .heroSection {
-    color: #ffffff;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/ptRopeExercise.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .landingSection .heroSection .companyMessage {
-    display: grid;
-    gap: 1em;
-    padding-top: 5em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-  }
-  .landingSection .heroSection .companyMessage .cta {
-    display: grid;
-    gap: 1em;
-  }
-  .landingSection .heroSection .companyMessage .cta #subTitle {
-    color: #1a6fe1;
-    max-width: fit-content;
-    padding-bottom: 1em;
-  }
-  .landingSection .heroSection .companyMessage .cta #title {
-    max-width: fit-content;
-  }
-  .landingSection .heroSection .companyMessage .cta #messageSubText {
-    max-width: 20em;
-  }
-  .landingSection .heroSection .companyMessage .navLink {
-    margin-bottom: 4em;
-    max-width: fit-content;
-  }
-  .landingSection .heroSection .companyMessage .navLink .contactUs {
-    background-image: linear-gradient(to right, #e12454 50%, #011e45 50%);
-    background-size: 200% 100%;
-    transition: background-position 0.5s;
-    background-position: 0;
-    color: #ffffff;
-    border: none;
-    padding: 1em;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    border-radius: 0;
-    cursor: pointer;
-  }
-  .landingSection .heroSection .companyMessage .navLink :hover {
-    background-position: 100%;
-    color: #ffffff;
-  }
-  .whoWeAre {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-left: 1em;
-    margin-right: 1em;
-    justify-items: center;
-    margin-bottom: 7.5em;
-    border-right: #1a6fe1;
-  }
-  .whoWeAre .description {
-    display: inherit;
-    gap: 1em;
-  }
-  .whoWeAre .description .subTitle {
+  .companyBanner .companyContainer .btns {
     display: flex;
-    align-items: center;
-    color: #1a6fe1;
-    font-size: 1em;
-    line-height: 1.25em;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
+    justify-content: center;
+    width: 50%;
+    gap: 3em;
   }
-  .whoWeAre .description .subTitle .subtitleBorder {
-    position: relative;
-    display: block;
-    background-color: #1a6fe1;
-    width: 1.875em;
-    height: 0.125em;
-    margin-right: 0.625em;
+  .companyBanner .companyContainer .btns button {
+    width: 100%;
   }
-  .whoWeAre .description .welcomeMessage {
-    color: #011e45;
-    font-size: 1.75em;
-    line-height: 1.25em;
-    font-weight: 900;
+  .companyBanner .companyContainer .btns a {
+    width: -webkit-fill-available;
   }
-  .whoWeAre .description p.subText {
-    color: #011e45;
+  .companyBanner .companyContainer .btns a button.letsConnectBtn {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.16);
+    border: 0.125em solid #ffffff;
+    border-radius: 0.5em;
+    padding: 0.375em;
     font-size: 1.25em;
-    font-weight: 600;
-    line-height: 1.4375em;
+    gap: 0.625em;
+    width: 100%;
+    height: 3.375em;
   }
-  .whoWeAre .description span.serviceDescription p {
-    color: #444444;
-    font-family: "Barlow", Sans-serif;
-    font-size: 1.125em;
-    font-weight: 400;
-    line-height: 2em;
+  .services .backgroundImage {
+    position: absolute;
+    z-index: -999;
   }
-  .whoWeAre .description a.navLink {
-    margin-bottom: 4em;
-    max-width: fit-content;
+  .services .container {
+    padding-top: 3em;
+    padding-bottom: 3em;
   }
-  .whoWeAre .description a.navLink .ourServices {
-    background-image: linear-gradient(to right, #e12454 50%, #011e45 50%);
-    background-size: 200% 100%;
-    transition: background-position 0.5s;
-    background-position: 0;
-    color: #ffffff;
-    border: none;
-    padding: 1em;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    border-radius: 1.875em;
-    letter-spacing: 0.1em;
-    cursor: pointer;
-    font-size: 1em;
-  }
-  .whoWeAre .description a.navLink :hover {
-    background-position: 100%;
-    color: #ffffff;
-  }
-  .whoWeAre .container .innerImage img {
-    max-width: 100%;
-    transform: scale(1);
-  }
-  .whoWeAre .container .innerImage .box1 {
-    position: relative;
-    left: -0.625em;
-    bottom: 1.6875em;
-    width: 5.625em;
-    height: 5.625em;
-    background-color: #7ec4d0;
-    z-index: -1;
-  }
-  .whyChooseUs {
+  .services .container .description {
     display: grid;
-    grid-template-columns: 1fr;
-    margin-bottom: 5em;
-    align-items: center;
-    background-color: #0cb2cf;
-    margin-bottom: 7.5em;
-  }
-  .whyChooseUs .innerImage {
-    display: none;
-  }
-  .whyChooseUs .innerImage img {
-    height: 100%;
-  }
-  .whyChooseUs .description {
-    display: inherit;
     gap: 1em;
     padding: 1em;
   }
-  .whyChooseUs .description .subTitle {
-    color: #ffffff;
+  .services .container .description .serviceTitle {
     font-size: 2.5em;
+    color: #202020;
   }
-  .whyChooseUs .description .welcomeMessage {
-    color: #ffffff;
-    font-size: 1.5em;
+  .services .container .description .serviceDescription {
+    line-height: 1.5em;
+    color: #707070;
   }
-  .whyChooseUs .description .subText {
-    color: #ffffff;
-  }
-  .whyChooseUs .description .serviceDescription p {
-    color: #ffffff;
-    font-size: 1.125em;
-    line-height: 2em;
-  }
-  .whyChooseUs .description .factCounter {
-    font-size: 3.75em;
-    color: #ffffff;
-  }
-  .whyChooseUs .description .factCounter .clientsServed {
+  .services .container .description .quoteServicesBtns {
     display: flex;
-  }
-  .whyChooseUs .description .factCounter .experience {
-    display: flex;
-  }
-  .whatWeOffer {
-    display: grid;
-    margin-bottom: 7.5em;
-  }
-  .whatWeOffer .description {
-    display: inherit;
-    justify-items: center;
-    padding-left: 1em;
-    padding-right: 1em;
-  }
-  .whatWeOffer .description .subTitle {
-    display: flex;
-    justify-content: space-around;
     align-items: center;
-    color: #1a6fe1;
-    font-size: 0.9375em;
-    line-height: 1.25em;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
+    justify-content: center;
+    gap: 3em;
   }
-  .whatWeOffer .description .subTitle .subtitleBorder {
-    position: relative;
-    display: block;
-    background-color: #1a6fe1;
-    width: 1.875em;
-    height: 0.125em;
-    margin-right: 0.625em;
+  .services .container .description .quoteServicesBtns a {
+    width: -webkit-fill-available;
   }
-  .whatWeOffer .description h2 {
-    font-size: 2em;
-    color: #011e45;
-    font-weight: 900;
+  .services .container .description .quoteServicesBtns a button {
+    width: 100%;
+    color: #192436;
+    border-radius: 0.5em;
+    padding: 0.375em;
+    font-size: 1.15em;
+    gap: 0.625em;
+    height: 2.375em;
   }
-  .whatWeOffer .description .subText p {
-    max-width: 60em;
-    font-size: 1.125em;
-    line-height: 1.875em;
-    text-align: left;
+  .services .container .description .quoteServicesBtns a .getQuoteBtn {
+    background-color: #e2cd1a;
+    border: none;
   }
-  .whatWeOffer .carouselContainer {
-    position: relative;
+  .services .container .description .quoteServicesBtns a .learnMoreBtn {
+    background-color: rgba(226, 205, 26, 0.16);
+    border: 0.125em solid #303030;
+  }
+  .services .container img {
+    padding: 0.5em;
+    border-radius: 1em;
+  }
+  .services .container#sitePrep {
+    background-color: #ffffff;
+  }
+  .coreServices {
+    background-color: #fbfbfb;
+  }
+  .coreServices .container {
     display: flex;
-    height: 300px;
-    overflow: hidden;
-    border: 1px solid red;
+    flex-direction: column;
+    gap: 3em;
+    margin-top: 3em;
+    margin-bottom: 3em;
   }
-  .whatWeOffer .carouselContainer .carouselItem {
-    width: 100%;
-    height: 100%;
-    flex-shrink: 0;
+  .coreServices .container .backgroundImage {
+    position: absolute;
+    z-index: -999;
   }
-  .whatWeOffer .carouselContainer .carouselItem img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  .coreServices .container .cardContainer {
+    border: 0.125em solid #d6eae5;
+    border-radius: 1em;
+    background-color: #ffffff;
   }
-  .benefitsOfPt {
+  .coreServices .container .cardContainer .description {
     display: grid;
-    margin-bottom: 7.5em;
-    grid-template-columns: 1fr;
-    margin-bottom: 5em;
-    align-items: center;
-    background-image: linear-gradient(180deg, #f4f5f9 0%, #f4f5f9 100%);
-  }
-  .benefitsOfPt .description {
-    display: inherit;
     gap: 1em;
+  }
+  .coreServices .container .cardContainer img {
+    border-radius: 2em;
     padding: 1em;
   }
-  .benefitsOfPt .description .subTitle {
-    font-size: 2.5em;
+  .coreServices .container .cardContainer a button {
+    width: 40%;
+    color: #192436;
+    border-radius: 0.5em;
+    padding: 0.375em;
+    font-size: 1.15em;
+    gap: 0.625em;
+    height: 2.375em;
   }
-  .benefitsOfPt .description .subTitle .subtitleBottomBorder {
-    position: relative;
-    display: block;
-    background-color: #011e45;
-    width: 1.875em;
-    height: 0.125em;
-    margin-right: 0.625em;
-  }
-  .benefitsOfPt .description .welcomeMessage {
-    color: #ffffff;
-    font-size: 1.5em;
-  }
-  .benefitsOfPt .description .subText {
-    color: #ffffff;
-  }
-  .benefitsOfPt .description .serviceDescription p {
-    color: #ffffff;
-    font-size: 1.125em;
-    line-height: 2em;
-  }
-  .benefitsOfPt .description .factCounter {
-    font-size: 3.75em;
-    color: #ffffff;
-  }
-  .benefitsOfPt .description .factCounter .clientsServed {
-    display: flex;
-  }
-  .benefitsOfPt .description .factCounter .experience {
-    display: flex;
-  }
-  .benefitsOfPt .description .navLink {
-    margin-bottom: 4em;
-    max-width: fit-content;
-  }
-  .benefitsOfPt .description .navLink .viewServices {
-    background-image: linear-gradient(to right, #e12454 50%, #011e45 50%);
-    background-size: 200% 100%;
-    transition: background-position 0.5s;
-    background-position: 0;
-    color: #ffffff;
+  .coreServices .container .cardContainer a .getQuoteBtn {
+    background-color: #e2cd1a;
     border: none;
-    padding: 1em;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    border-radius: 0;
-    cursor: pointer;
   }
-  .benefitsOfPt .description .navLink :hover {
-    background-position: 100%;
-    color: #ffffff;
-  }
-  .benefitsOfPt .innerImage img {
-    height: 100%;
-  }
-  .statistics {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-left: 1em;
-    margin-right: 1em;
-    justify-items: center;
-    margin-top: 1.875em;
-    margin-bottom: 7.5em;
-    border-right: #1a6fe1;
-  }
-  .statistics .description {
-    display: inherit;
-    align-content: center;
-  }
-  .statistics .description .subTitle {
-    display: flex;
-    align-items: center;
-    color: #1a6fe1;
-    font-size: 2em;
-    line-height: 1.25em;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-  }
-  .statistics .description .subTitle .subtitleBorder {
-    position: relative;
-    display: block;
-    background-color: #1a6fe1;
-    width: 1.875em;
-    height: 0.125em;
-    margin-right: 0.625em;
-  }
-  .statistics .description .welcomeMessage {
-    color: #011e45;
-    font-size: 2.8125em;
-    line-height: 1.25em;
-    font-weight: 900;
-  }
-  .statistics .description span.serviceDescription p {
-    color: #444444;
-    font-family: "Barlow", Sans-serif;
-    font-size: 1.125em;
-    font-weight: 400;
-    line-height: 2em;
-  }
-  .statistics .description a.navLink {
-    margin-bottom: 4em;
-    max-width: fit-content;
-  }
-  .statistics .description a.navLink .ourServices {
-    background-image: linear-gradient(to right, #e12454 50%, #011e45 50%);
-    background-size: 200% 100%;
-    transition: background-position 0.5s;
-    background-position: 0;
-    color: #ffffff;
-    border: none;
-    padding: 1em;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    border-radius: 1.875em;
-    letter-spacing: 0.1em;
-    cursor: pointer;
-    font-size: 1em;
-  }
-  .statistics .description a.navLink :hover {
-    background-position: 100%;
-    color: #ffffff;
-  }
-  .statistics .container .innerImage img {
-    max-width: 100%;
-    transform: scale(1);
-  }
-  .statistics .container .innerImage .box1 {
-    position: relative;
-    left: -0.625em;
-    bottom: 1.6875em;
-    width: 5.625em;
-    height: 5.625em;
-    background-color: #7ec4d0;
-    z-index: -1;
+  .coreServices .container .cardContainer a .learnMoreBtn {
+    background-color: rgba(226, 205, 26, 0.16);
+    border: 0.125em solid #303030;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -419,44 +141,49 @@
   .landingSection .heroSection .companyMessage .navLink .contactUs {
     font-size: 1em;
   }
-  .whatWeOffer .carouselContainer {
-    width: 600px;
-  }
-  .whatWeOffer .carouselContainer ul {
-    display: flex;
-  }
 }
 @media only screen and (min-width: 1024px) {
-  .whoWeAre {
+  .services .container {
+    display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+    width: 100%;
   }
-  .whoWeAre .description {
-    padding-right: 1em;
+  .services .container .description {
+    margin-left: 1.25em;
   }
-  .whyChooseUs {
-    margin-left: 0;
-    margin-right: 0;
-    grid-template-columns: 1fr 1fr;
+  .services .boxOne {
+    position: absolute;
+    left: 0em;
+    float: left;
+    width: 17.625em;
+    height: 19.625em;
+    background-color: #192436;
+    z-index: -1;
   }
-  .whyChooseUs .innerImage {
-    display: contents;
+  .coreServices .container {
+    flex-direction: row;
   }
-  .whyChooseUs .description .factCounter {
-    display: flex;
-    justify-content: space-around;
+}
+@media only screen and (min-width: 1440px) and (max-width: 2120px) {
+  .coreServices .container .backgroundImage {
+    width: 80%;
   }
-  .benefitsOfPt {
-    margin-left: 0;
-    margin-right: 0;
-    grid-template-columns: 1fr 1fr;
+}
+@media only screen and (min-width: 2560px) {
+  button {
+    font-size: 1.5em !important;
   }
-  .benefitsOfPt .innerImage {
-    display: contents;
+  .services .servicesContainer .backgroundImage {
+    width: -webkit-fill-available;
   }
-  .statistics {
-    grid-template-columns: 1fr 1fr;
+  .cardContainer .description h1 {
+    font-size: 2.5em !important;
   }
-  .statistics .description {
-    padding-right: 1em;
+  .cardContainer .description p {
+    font-size: 1.5em;
   }
 }
