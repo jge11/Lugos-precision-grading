@@ -38,6 +38,10 @@
 
   // Who we are Section start
   .services {
+    .backgroundImage {
+      position: absolute;
+      z-index: -999;
+    }
     .container {
       padding-top: 48/16em;
       padding-bottom: 48/16em;
@@ -55,23 +59,38 @@
           line-height: 24/16em;
           color: #707070;
         }
+
+        .quoteServicesBtns {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 48/16em;
+
+          a {
+            width: -webkit-fill-available;
+            button {
+              width: 100%;
+              color: #192436;
+              border-radius: 0.5em;
+              padding: 0.375em;
+              font-size: 18.4/16em;
+              gap: 0.625em;
+              height: 38/16em;
+            }
+            .getQuoteBtn {
+              background-color: #e2cd1a;
+              border: none;
+            }
+            .learnMoreBtn {
+              background-color: rgba(226, 205, 26, 0.16);
+              border: 2/16em solid #303030;
+            }
+          }
+        }
       }
       img {
         padding: 8/16em;
         border-radius: 16/16em;
-      }
-      a {
-        width: fit-content;
-        .getQuoteBtn {
-          background-color: #e2cd1a;
-          color: #192436;
-          border: none;
-          border-radius: 0.5em;
-          padding: 0.375em;
-          font-size: 1.25em;
-          gap: 0.625em;
-          height: 3.375em;
-        }
       }
     }
     .container#sitePrep {
@@ -421,10 +440,9 @@
       }
     }
     .boxOne {
-      position: relative;
+      position: absolute;
       left: 0em;
-      float: right;
-      bottom: 30em;
+      float: left;
       width: 17.625em;
       height: 19.625em;
       background-color: #192436;
@@ -433,24 +451,18 @@
   }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 2560px) {
   .services {
-    .boxOne {
-      bottom: 40em;
+    .servicesContainer {
+      .backgroundImage {
+        width: -webkit-fill-available;
+      }
     }
   }
-}
-
-@media only screen and (min-width: 2560px) {
   h1 {
     font-size: 32/16em;
   }
   p {
     font-size: 24/16em;
-  }
-  .services {
-    .boxOne {
-      bottom: 50em;
-    }
   }
 }
