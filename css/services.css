@@ -36,6 +36,33 @@
   .services .container#sitePrep {
     background-color: #fafbfb;
   }
+  .services .servicedAreas {
+    background-color: #ebebeb;
+  }
+  .services .servicedAreas ul li.locations {
+    color: #d7c52a;
+    font-size: 2em;
+  }
+  .services .servicedAreas a {
+    width: -webkit-fill-available;
+  }
+  .services .servicedAreas a button {
+    width: 100%;
+    color: #192436;
+    border-radius: 0.5em;
+    padding: 0.375em;
+    font-size: 1.15em;
+    gap: 0.625em;
+    height: 2.375em;
+  }
+  .services .servicedAreas a .getQuoteBtn {
+    background-color: #e2cd1a;
+    border: none;
+  }
+  .services .servicedAreas a .letsConnectBtn {
+    background-color: rgba(226, 205, 26, 0.16);
+    border: 0.125em solid #303030;
+  }
 }
 @media only screen and (min-width: 1024px) {
   .services .container {
