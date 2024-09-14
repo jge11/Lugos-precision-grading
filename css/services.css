@@ -1,67 +1,76 @@
-@media only screen and (min-width: 0px) {
-  .whatWeOffer {
+@media only screen and (min-width: 0) {
+  .services .container {
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+  .services .container .description {
     display: grid;
-    margin-bottom: 7.5em;
-    justify-items: center;
+    gap: 1em;
+    padding: 1em;
   }
-  .whatWeOffer .description {
-    display: inherit;
-    justify-items: center;
-    padding-left: 1em;
-    padding-right: 1em;
+  .services .container .description .serviceTitle {
+    font-size: 2.5em;
+    color: #202020;
   }
-  .whatWeOffer .description .subTitle {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: #1a6fe1;
-    font-size: 0.9375em;
-    line-height: 1.25em;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
+  .services .container .description .serviceDescription {
+    line-height: 1.5em;
+    color: #707070;
   }
-  .whatWeOffer .description .subTitle .subtitleBorder {
-    position: relative;
-    display: block;
-    background-color: #1a6fe1;
-    width: 1.875em;
-    height: 0.125em;
-    margin-right: 0.625em;
+  .services .container img {
+    padding: 0.5em;
+    border-radius: 1em;
   }
-  .whatWeOffer .description h2 {
-    font-size: 2em;
-    color: #011e45;
-    font-weight: 900;
-  }
-  .whatWeOffer .description .subText p {
-    text-align: center;
-    max-width: 60em;
-    font-size: 1.125em;
-    line-height: 1.875em;
-  }
-  .whatWeOffer .servicesContainer {
-    display: grid;
-    gap: 3em;
-  }
-  .whatWeOffer .servicesContainer ul {
-    list-style: none;
-  }
-  .whatWeOffer .servicesContainer ul li.serviceItem {
-    display: grid;
-    grid-gap: 1em;
-    border: 0.5px solid #7f8b88;
+  .services .container .getQuoteBtn {
+    background-color: #e2cd1a;
+    color: #192436;
+    border: none;
     border-radius: 0.5em;
-    margin: 1em;
+    padding: 0.375em;
+    font-size: 1.25em;
+    gap: 0.625em;
+    height: 3.375em;
+  }
+  .services .container#sitePrep {
+    background-color: #fafbfb;
   }
 }
-@media only screen and (min-width: 768px) {
-  .whatWeOffer .servicesContainer ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+@media only screen and (min-width: 1024px) {
+  .services .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+    width: 100%;
   }
-  .whatWeOffer .servicesContainer ul li.serviceItem {
-    max-width: 29%;
+  .services .container .description {
+    margin-left: 1.25em;
+  }
+  .services .boxOne {
+    position: relative;
+    left: 0em;
+    float: right;
+    bottom: 30em;
+    width: 17.625em;
+    height: 19.625em;
+    background-color: #192436;
+    z-index: -1;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .services .boxOne {
+    bottom: 40em;
+  }
+}
+@media only screen and (min-width: 2560px) {
+  h1 {
+    font-size: 2em;
+  }
+  p {
+    font-size: 1.5em;
+  }
+  .services .boxOne {
+    bottom: 50em;
   }
 }

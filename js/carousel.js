@@ -1,18 +1,3 @@
-// const carousel = document.querySelector("carouselContainer");
-// const images = document.querySelectorAll(".li");
-
-// const slideShow = carousel.length;
-// let activeImg = 0;
-
-// setInterval(() => {
-//   images[activeImg].classList.remove("active");
-//   activeImg++;
-//   if (activeImg === slideShow) {
-//     activeImg = 0;
-//   }
-//   slides[activeSlide].classList.add("active");
-// }, 2000);
-
 const slider = document.querySelector("carouselContainer");
 const slides = slider.querySelectorAll(".carouselItem");
 

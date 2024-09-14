@@ -40,3 +40,10 @@ customCount.forEach((counter) => {
   };
   updateCount();
 });
+
+const textArea = document.getElementById("messageText");
+
+textArea.addEventListener("input", function () {
+  this.style.height = "auto";
+  this.style.height = this.scrollHeight + "px";
+});
