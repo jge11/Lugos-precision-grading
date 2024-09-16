@@ -527,7 +527,6 @@ header {
 }
 .footerSection .footerContainer .rightSideFooter ul.services {
   padding-right: 3em;
-  border-left: 1px solid red;
 }
 .footerSection .footerContainer .rightSideFooter ul.services h2 {
   color: #e2cd1a;
