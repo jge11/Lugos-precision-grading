@@ -81,7 +81,6 @@ header {
     padding: 0.375em;
     font-size: 1.25em;
     gap: 0.625em;
-    width: 50%;
     height: 3.375em;
   }
   .infoLinks {
@@ -396,9 +395,6 @@ header {
 @media only screen and (min-width: 768px) {
   .companyBanner .companyContainer h1 {
     font-size: 4.125em;
-  }
-  .companyBanner .companyContainer button {
-    width: 20%;
   }
   .infoLinks ul.topHeader li p a {
     color: #ffffff;
