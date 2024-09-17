@@ -81,7 +81,6 @@ header {
     padding: 0.375em;
     font-size: 1.25em;
     gap: 0.625em;
-    width: 50%;
     height: 3.375em;
   }
   .infoLinks {
@@ -114,7 +113,7 @@ header {
     transition: 0.5s;
   }
   .infoLinks ul.topHeader a:hover {
-    color: #00ffff;
+    color: #e2cd1a;
     transition: 0.5s;
   }
   .infoLinks ul.topHeader li.phoneLink {
@@ -155,7 +154,7 @@ header {
     text-decoration: none;
   }
   nav a:hover {
-    color: turquoise;
+    color: #e2cd1a;
   }
   nav .hamburger {
     display: block;
@@ -183,7 +182,7 @@ header {
   nav .navMenu {
     position: fixed;
     right: -100%;
-    background-color: #011e45;
+    background-color: #192436;
     width: 100%;
     transition: 0.3s;
   }
@@ -314,7 +313,7 @@ header {
   .contactForm .formContainer form button {
     margin-bottom: 4em;
     width: 100%;
-    background-image: linear-gradient(to right, #e2cd1a 50%, #011e45 50%);
+    background-image: linear-gradient(to right, #e2cd1a 50%, #192436 50%);
     background-size: 200% 100%;
     transition: background-position 0.5s;
     background-position: 0;
@@ -361,7 +360,7 @@ header {
     color: #ffffff;
   }
   .contactForm .contactInfo .contactDetails .contactLink :hover {
-    color: #00ffff;
+    color: #e2cd1a;
   }
   .contactForm .contactInfo .contactDetails .address {
     color: #ffffff;
@@ -396,9 +395,6 @@ header {
 @media only screen and (min-width: 768px) {
   .companyBanner .companyContainer h1 {
     font-size: 4.125em;
-  }
-  .companyBanner .companyContainer button {
-    width: 20%;
   }
   .infoLinks ul.topHeader li p a {
     color: #ffffff;
@@ -497,7 +493,11 @@ header {
   color: #ffffffcc;
 }
 .footerSection .footerContainer .leftSideFooter a:hover {
-  color: #00ffff;
+  color: #e2cd1a;
+}
+.footerSection .footerContainer .leftSideFooter .companyMessage {
+  color: #ffffff;
+  font-size: 2em;
 }
 .footerSection .footerContainer .rightSideFooter {
   display: grid;
@@ -513,17 +513,16 @@ header {
   list-style: none;
   margin-bottom: 0.5em;
   margin-top: 0.625em;
-  color: #ffffff;
 }
 .footerSection .footerContainer .rightSideFooter ul.pages li:hover {
-  color: #00ffff;
+  color: #e2cd1a;
 }
 .footerSection .footerContainer .rightSideFooter ul.pages a {
+  color: #ffffff;
   text-decoration: none;
 }
 .footerSection .footerContainer .rightSideFooter ul.services {
   padding-right: 3em;
-  border-left: 1px solid red;
 }
 .footerSection .footerContainer .rightSideFooter ul.services h2 {
   color: #e2cd1a;
@@ -532,10 +531,16 @@ header {
   list-style: none;
   margin-bottom: 0.5em;
   margin-top: 0.625em;
-  color: #ffffff;
+}
+.footerSection .footerContainer .rightSideFooter ul.services li p {
+  font-size: 1em !important;
 }
 .footerSection .footerContainer .rightSideFooter ul.services a {
+  color: #ffffff;
   text-decoration: none;
+}
+.footerSection .footerContainer .rightSideFooter ul.services :hover {
+  color: #e2cd1a;
 }
 .footerSection .footerContainer .rightSideFooter ul.footerSocialLinks {
   display: flex;
@@ -581,8 +586,14 @@ header {
   }
 }
 @media only screen and (min-width: 1024px) {
-  .footerSection .footerContainer .leftSideFooter .imageSubText {
+  .footerSection .footerContainer h2 {
     font-size: 2em;
+  }
+  .footerSection .footerContainer p {
+    font-size: 1.5em;
+  }
+  .footerSection .footerContainer li {
+    font-size: 1.5em;
   }
 }
 @media only screen and (min-width: 2560px) {

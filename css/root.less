@@ -1,6 +1,6 @@
 @font-style: Plus Jakarta Sans;
 @defaultFS: 16/16em;
-@black: #011e45;
+@black: #192436;
 @subTitle: #1a6fe1;
 @lineHeight: 32/16em;
 @fontSizeLg: 24/16em;
@@ -98,7 +98,7 @@ header {
         padding: 6/16em;
         font-size: 20/16em;
         gap: 10/16em;
-        width: 50%;
+        // width: 50%;
         height: 54/16em;
       }
     }
@@ -131,7 +131,7 @@ header {
         }
       }
       a:hover {
-        color: #00ffff;
+        color: #e2cd1a;
         transition: 0.5s;
       }
       li.phoneLink {
@@ -178,7 +178,7 @@ header {
       text-decoration: none;
     }
     a:hover {
-      color: turquoise;
+      color: #e2cd1a;
     }
     // a:active {
     //   color: red;
@@ -215,7 +215,7 @@ header {
       position: fixed;
       right: -100%;
       // left: -100%;
-      background-color: #011e45;
+      background-color: #192436;
       width: 100%;
       transition: 0.3s;
     }
@@ -410,7 +410,7 @@ header {
             color: #ffffff;
           }
           :hover {
-            color: #00ffff;
+            color: #e2cd1a;
           }
         }
         .address {
@@ -456,9 +456,6 @@ header {
     .companyContainer {
       h1 {
         font-size: 66/16em;
-      }
-      button {
-        width: 20%;
       }
     }
   }
@@ -584,7 +581,11 @@ header {
         color: #ffffffcc;
       }
       a:hover {
-        color: #00ffff;
+        color: #e2cd1a;
+      }
+      .companyMessage {
+        color: #ffffff;
+        font-size: 32/16em;
       }
     }
 
@@ -601,19 +602,19 @@ header {
           list-style: none;
           margin-bottom: 8/16em;
           margin-top: 10/16em;
-          color: #ffffff;
         }
         li:hover {
-          color: #00ffff;
+          color: #e2cd1a;
         }
         a {
+          color: #ffffff;
           text-decoration: none;
         }
       }
 
       ul.services {
         padding-right: 3em;
-        border-left: 1px solid red;
+        // border-left: 1px solid red;
         h2 {
           color: #e2cd1a;
         }
@@ -621,10 +622,16 @@ header {
           list-style: none;
           margin-bottom: 8/16em;
           margin-top: 10/16em;
-          color: #ffffff;
+          p {
+            font-size: 16/16em !important;
+          }
         }
         a {
+          color: #ffffff;
           text-decoration: none;
+        }
+        :hover {
+          color: #e2cd1a;
         }
       }
       ul.footerSocialLinks {
@@ -679,10 +686,17 @@ header {
 @media only screen and(min-width: 1024px) {
   .footerSection {
     .footerContainer {
+      h2 {
+        font-size: 32/16em;
+      }
+      p {
+        font-size: 24/16em;
+      }
+
+      li {
+        font-size: 24/16em;
+      }
       .leftSideFooter {
-        .imageSubText {
-          font-size: 32/16em;
-        }
       }
     }
   }
