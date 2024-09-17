@@ -1,0 +1,10 @@
+@media only screen and (min-width: 0px) {
+  .contactForm .contactContainer .formContainer ul.services li p a {
+    color: black;
+    cursor: pointer;
+    font-size: 1.5em;
+  }
+  .contactForm .contactContainer .formContainer ul.services li p a:hover {
+    color: #e2cd1a;
+  }
+}
