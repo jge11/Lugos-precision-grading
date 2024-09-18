@@ -4,12 +4,7 @@
     font-size: 0.85vw;
   }
 }
-body {
-  /* width */
-  /* Track */
-  /* Handle */
-  /* Handle on hover */
-}
+
 body ::-webkit-scrollbar {
   width: 0.875em;
   position: absolute;
