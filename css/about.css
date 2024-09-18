@@ -1,4 +1,9 @@
 @media only screen and (min-width: 0) {
+  .companyBanner {
+    background-image: linear-gradient(rgba(25, 36, 54, 0.8), rgba(25, 36, 54, 0.64)), url(../images/aboutBackground.jpg);
+    background-size: cover;
+    background-position: center;
+  }
   .whoWeAre {
     display: grid;
     grid-template-columns: 1fr;
