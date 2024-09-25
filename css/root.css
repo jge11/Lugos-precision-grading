@@ -4,7 +4,12 @@
     font-size: 0.85vw;
   }
 }
-
+body {
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
 body ::-webkit-scrollbar {
   width: 0.875em;
   position: absolute;
@@ -183,8 +188,8 @@ header {
   nav .navMenu.active {
     top: 4em;
     right: 0;
-    width: 19em;
-    height: -webkit-fill-available;
+    width: auto;
+    height: 100dvh;
     display: flex;
     flex-direction: column;
     gap: 2em;
@@ -554,11 +559,7 @@ header {
     color: #ffffff;
     cursor: pointer;
   }
-  .footerSection
-    .footerContainer
-    .rightSideFooter
-    ul.footerSocialLinks
-    li:hover {
+  .footerSection .footerContainer .rightSideFooter ul.footerSocialLinks li:hover {
     color: #ff0000;
     background-color: #ffffff;
   }
