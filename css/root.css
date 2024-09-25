@@ -186,7 +186,7 @@ header {
     display: none;
   }
   nav .navMenu.active {
-    top: 4em;
+    top: 3.375em;
     right: 0;
     width: auto;
     height: 100dvh;
