@@ -4,7 +4,12 @@
     font-size: 0.85vw;
   }
 }
-
+body {
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
 body ::-webkit-scrollbar {
   width: 0.875em;
   position: absolute;
@@ -181,13 +186,14 @@ header {
     display: none;
   }
   nav .navMenu.active {
-    top: 4em;
+    overflow: auto;
+    top: 3.375em;
     right: 0;
-    width: 19em;
-    height: -webkit-fill-available;
+    width: auto;
+    height: 100dvh;
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 1em;
     padding-top: 3em;
   }
   nav .navMenu.active li.contactLinks {
@@ -554,11 +560,7 @@ header {
     color: #ffffff;
     cursor: pointer;
   }
-  .footerSection
-    .footerContainer
-    .rightSideFooter
-    ul.footerSocialLinks
-    li:hover {
+  .footerSection .footerContainer .rightSideFooter ul.footerSocialLinks li:hover {
     color: #ff0000;
     background-color: #ffffff;
   }
