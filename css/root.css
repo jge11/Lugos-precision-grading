@@ -186,6 +186,7 @@ header {
     display: none;
   }
   nav .navMenu.active {
+    overflow: auto;
     top: 3.375em;
     right: 0;
     width: auto;
