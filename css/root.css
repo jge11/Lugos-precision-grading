@@ -578,6 +578,12 @@ header {
   .footerSection .footerContainer .rightSideFooter {
     grid-template-columns: 1fr 1fr;
   }
+  .footerSection .footerContainer .rightSideFooter ul.pages {
+    padding-right: 3em;
+  }
+  .footerSection .footerContainer .rightSideFooter ul.services {
+    padding-right: 3em;
+  }
 }
 @media only screen and (min-width: 1024px) {
   .footerSection .footerContainer h2 {
