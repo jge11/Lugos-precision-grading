@@ -502,9 +502,6 @@ header {
     display: grid;
     grid-template-columns: 1fr;
   }
-  .footerSection .footerContainer .rightSideFooter ul.pages {
-    padding-right: 3em;
-  }
   .footerSection .footerContainer .rightSideFooter ul.pages h2 {
     color: #e2cd1a;
   }
@@ -519,9 +516,6 @@ header {
   .footerSection .footerContainer .rightSideFooter ul.pages a {
     color: #ffffff;
     text-decoration: none;
-  }
-  .footerSection .footerContainer .rightSideFooter ul.services {
-    padding-right: 3em;
   }
   .footerSection .footerContainer .rightSideFooter ul.services h2 {
     color: #e2cd1a;
