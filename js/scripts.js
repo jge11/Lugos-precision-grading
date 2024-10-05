@@ -41,9 +41,10 @@ customCount.forEach((counter) => {
   updateCount();
 });
 
-const textArea = document.getElementById("messageText");
-
-textArea.addEventListener("input", function () {
-  this.style.height = "auto";
-  this.style.height = this.scrollHeight + "px";
-});
+// const textArea = document.getElementById("messageText");
+// if (textArea) {
+//   textArea.addEventListener("input", function () {
+//     this.style.height = "auto";
+//     this.style.height = this.scrollHeight + "px";
+//   });
+// }
