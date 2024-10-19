@@ -502,8 +502,10 @@ header {
     display: grid;
     grid-template-columns: 1fr;
   }
-  .footerSection .footerContainer .rightSideFooter ul.pages h2 {
+  .footerSection .footerContainer .rightSideFooter ul.pages li.companyTitle {
     color: #e2cd1a;
+    font-size: 1.5em;
+    border-bottom: 2px solid #ffffff;
   }
   .footerSection .footerContainer .rightSideFooter ul.pages li {
     list-style: none;
@@ -517,8 +519,10 @@ header {
     color: #ffffff;
     text-decoration: none;
   }
-  .footerSection .footerContainer .rightSideFooter ul.services h2 {
+  .footerSection .footerContainer .rightSideFooter ul.services .footerCta {
     color: #e2cd1a;
+    font-size: 1.5em;
+    border-bottom: 2px solid #ffffff;
   }
   .footerSection .footerContainer .rightSideFooter ul.services li {
     list-style: none;
