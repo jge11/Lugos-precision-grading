@@ -512,7 +512,7 @@ header {
     margin-bottom: 0.5em;
     margin-top: 0.625em;
   }
-  .footerSection .footerContainer .rightSideFooter ul.pages li:hover {
+  .footerSection .footerContainer .rightSideFooter ul.pages .companyNavList:hover {
     color: #e2cd1a;
   }
   .footerSection .footerContainer .rightSideFooter ul.pages a {
