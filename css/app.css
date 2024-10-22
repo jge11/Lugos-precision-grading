@@ -30,6 +30,7 @@
   .services .backgroundImage {
     position: absolute;
     z-index: -999;
+    width: 100%;
   }
   .services .container {
     padding-top: 3em;
@@ -61,7 +62,7 @@
     width: 100%;
     color: #192436;
     border-radius: 0.5em;
-    font-size: 1.15em;
+    font-size: 1em;
     gap: 0.625em;
     height: 2.375em;
   }
@@ -98,6 +99,7 @@
     border: 0.125em solid #d6eae5;
     border-radius: 1em;
     background-color: #ffffff;
+    display: grid;
   }
   .coreServices .container .cardContainer .description {
     display: grid;
