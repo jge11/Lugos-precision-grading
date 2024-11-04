@@ -4,6 +4,9 @@
     background-size: cover;
     background-position: center;
   }
+  .companyBanner .companyContainer a button:hover {
+    cursor: pointer;
+  }
   .projectsContainer .servicesContainer {
     display: grid;
     gap: 3em;
@@ -36,6 +39,9 @@
     max-width: fit-content;
   }
   .projectsContainer .servicesContainer ul li.serviceItem .descriptionContainer a .learnMoreBtn {
+    border-radius: 0.5em;
+    color: #192436;
+    font-size: 1em;
     cursor: pointer;
     border: 1px solid #303030;
     background: rgba(226, 205, 26, 0.16);
@@ -43,6 +49,7 @@
     transition: all, 0.5s ease-in-out;
   }
   .projectsContainer .servicesContainer ul li.serviceItem .descriptionContainer a :hover {
+    cursor: pointer;
     background: #192436;
     color: #e2cd1a;
   }
