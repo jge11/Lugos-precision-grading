@@ -71,7 +71,7 @@
     border: none;
   }
   .services .container .description .quoteServicesBtns a .learnMoreBtn {
-    font-size: 0.875em;
+    font-size: 1em;
     background-color: rgba(226, 205, 26, 0.16);
     border: 0.125em solid #303030;
   }
