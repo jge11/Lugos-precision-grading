@@ -4,6 +4,9 @@
     background-size: cover;
     background-position: center;
   }
+  .companyBanner .companyContainer a button:hover {
+    cursor: pointer;
+  }
   .services .container {
     padding-top: 3em;
     padding-bottom: 3em;
@@ -38,6 +41,9 @@
     gap: 0.625em;
     height: 3.375em;
   }
+  .services .container a :hover {
+    cursor: pointer;
+  }
   .services .container#sitePrep {
     background-color: #fafbfb;
   }
@@ -67,6 +73,9 @@
   .services .servicedAreas a .letsConnectBtn {
     background-color: rgba(226, 205, 26, 0.16);
     border: 0.125em solid #303030;
+  }
+  .services .servicedAreas a :hover {
+    cursor: pointer;
   }
 }
 @media only screen and (min-width: 1024px) {

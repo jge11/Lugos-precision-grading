@@ -4,6 +4,9 @@
     background-size: cover;
     background-position: center;
   }
+  .companyBanner .companyContainer a button:hover {
+    cursor: pointer;
+  }
   .projectsContainer .servicesContainer {
     display: grid;
     gap: 3em;
@@ -46,6 +49,7 @@
     transition: all, 0.5s ease-in-out;
   }
   .projectsContainer .servicesContainer ul li.serviceItem .descriptionContainer a :hover {
+    cursor: pointer;
     background: #192436;
     color: #e2cd1a;
   }
