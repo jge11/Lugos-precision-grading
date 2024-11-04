@@ -27,6 +27,9 @@
     width: 100%;
     height: 3.375em;
   }
+  .companyBanner :hover {
+    cursor: pointer;
+  }
   .services .backgroundImage {
     position: absolute;
     z-index: -999;
@@ -69,6 +72,9 @@
   .services .container .description .quoteServicesBtns a .getQuoteBtn {
     background-color: #e2cd1a;
     border: none;
+  }
+  .services .container .description .quoteServicesBtns a :hover {
+    cursor: pointer;
   }
   .services .container .description .quoteServicesBtns a .learnMoreBtn {
     background-color: rgba(226, 205, 26, 0.16);
