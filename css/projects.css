@@ -36,6 +36,8 @@
     max-width: fit-content;
   }
   .projectsContainer .servicesContainer ul li.serviceItem .descriptionContainer a .learnMoreBtn {
+    color: #192436;
+    font-size: 1em;
     cursor: pointer;
     border: 1px solid #303030;
     background: rgba(226, 205, 26, 0.16);
