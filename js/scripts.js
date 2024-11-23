@@ -53,7 +53,7 @@ customCount.forEach((counter) => {
 const testimonial = [
   {
     name: "Will E.",
-    review: `I have worked with Adrian on a few different jobs now. He does great quality work. Very reasonable, trustworthy & clean. When an issue comes about, he’s there to fix it, day or night. Ill continue to use Lugos Precision Grading and i recommend whoever else to give them a call. Him & his team will get the job done`,
+    review: `I have worked with Adrian on a few different jobs now. He does great quality work. Very reasonable, trustworthy & clean. When an issue comes about, he’s there to fix it, day or night. Ill continue to use Lugos Precision Grading and i recommend whoever else to give them a call. Him & his team will get the job done ⭐️ ⭐️ ⭐️ ⭐️ ⭐️`,
   },
   {
     name: "Clutter Bee Gone Junk Removal & Dumpsters Naples",
@@ -63,8 +63,7 @@ const testimonial = [
 
   {
     name: "Naples All-Stars",
-    review: `Gave Adrian a call to come out and give us a hand to finish up a tree job it was last minute notice and he came out and helped us get the job done! Very professional and reliable.
-`,
+    review: `Gave Adrian a call to come out and give us a hand to finish up a tree job it was last minute notice and he came out and helped us get the job done! Very professional and reliable.⭐️ ⭐️ ⭐️ ⭐️ ⭐️`,
   },
 ];
 
