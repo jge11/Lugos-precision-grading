@@ -50,6 +50,7 @@
   .services .container .description .serviceDescription {
     line-height: 1.5em;
     color: #707070;
+    font-size: 1.1875em;
   }
   .services .container .description .quoteServicesBtns {
     display: flex;
