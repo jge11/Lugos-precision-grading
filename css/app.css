@@ -116,6 +116,9 @@
     gap: 1em;
     text-align: center;
   }
+  .testimonialContainer .reviewContainer .cardContainer .description .userName {
+    font-weight: bold;
+  }
   .testimonialContainer .reviewContainer .cardContainer img {
     border-radius: 2em;
     padding: 1em;
