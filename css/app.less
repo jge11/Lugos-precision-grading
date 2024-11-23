@@ -11,7 +11,7 @@
         rgba(25, 36, 54, 0.8),
         rgba(25, 36, 54, 0.64)
       ),
-      url(../images/homeBackground.jpg);
+      url(../images/homeBackground.webp);
     background-size: cover;
     background-position: center;
 
@@ -19,7 +19,6 @@
       .btns {
         display: flex;
         justify-content: center;
-        width: 50%;
         gap: 48/16em;
         button {
           width: 100%;
@@ -27,9 +26,11 @@
         a {
           width: -webkit-fill-available;
           button.letsConnectBtn {
-            color: #ffffff;
-            background-color: rgba(255, 255, 255, 0.16);
-            border: 2/16em solid rgba(255, 255, 255, 1);
+            color: #000000;
+            // background-color: rgba(255, 255, 255, 0.16);
+            background-color: #e2cd1a;
+            // border: 2/16em solid rgba(255, 255, 255, 1);
+            border: none;
             border-radius: 8/16em;
             padding: 6/16em;
             font-size: 20/16em;
@@ -114,6 +115,42 @@
   }
   // Who we are Section end
 
+  //testimonial Container start
+  .testimonialContainer {
+    background-color: #192436;
+    display: flex;
+    justify-content: center;
+    .reviewContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 50%;
+      gap: 48/16em;
+      margin-top: 48/16em;
+      margin-bottom: 48/16em;
+      h1 {
+        font-size: 32/16em;
+        color: #d5c537;
+      }
+      .cardContainer {
+        border: 2/16em solid #d6eae5;
+        border-radius: 16/16em;
+        background-color: #ffffff;
+        display: grid;
+        .description {
+          display: grid;
+          gap: 16/16em;
+          text-align: center;
+        }
+        img {
+          border-radius: 32/16em;
+          padding: 16/16em;
+        }
+      }
+    }
+  }
+
+  //testimonial Container end
   //Our core services start
   .coreServices {
     background-color: #fbfbfb;
@@ -214,7 +251,13 @@
       z-index: -1;
     }
   }
-
+  .testimonialContainer {
+    .reviewContainer {
+      .cardContainer {
+        display: flex;
+      }
+    }
+  }
   //Our core services start
   .coreServices {
     .container {
