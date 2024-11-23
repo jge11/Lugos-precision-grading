@@ -116,6 +116,9 @@
     gap: 1em;
     text-align: center;
   }
+  .testimonialContainer .reviewContainer .cardContainer .description .serviceDescription {
+    font-size: 1.125em;
+  }
   .testimonialContainer .reviewContainer .cardContainer .description .userName {
     font-weight: bold;
   }
