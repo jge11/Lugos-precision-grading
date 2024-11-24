@@ -105,6 +105,16 @@
     font-size: 2em;
     color: #d5c537;
   }
+  .testimonialContainer .reviewContainer .googleLogo {
+    display: grid;
+    justify-items: center;
+  }
+  .testimonialContainer .reviewContainer .googleLogo h2 {
+    color: #e2cd1a;
+  }
+  .testimonialContainer .reviewContainer .googleLogo .fiveStars {
+    font-size: 2em;
+  }
   .testimonialContainer .reviewContainer .cardContainer {
     border: 0.125em solid #d6eae5;
     border-radius: 1em;
@@ -215,6 +225,12 @@
     height: 19.625em;
     background-color: #192436;
     z-index: -1;
+  }
+  .testimonialContainer .reviewContainer .googleLogo {
+    height: 28%;
+  }
+  .testimonialContainer .reviewContainer .googleLogo img {
+    height: 46%;
   }
   .testimonialContainer .reviewContainer .cardContainer {
     display: flex;
