@@ -235,6 +235,9 @@
   .testimonialContainer .reviewContainer .cardContainer {
     display: flex;
   }
+  .testimonialContainer .reviewContainer .cardContainer .description .serviceDescription {
+    font-size: 1.5em;
+  }
   .coreServices .container {
     flex-direction: row;
   }
