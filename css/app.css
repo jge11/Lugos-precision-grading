@@ -7,7 +7,7 @@
   .companyBanner .companyContainer .btns {
     display: flex;
     justify-content: center;
-    gap: 3em;
+    gap: 2em;
   }
   .companyBanner .companyContainer .btns button {
     width: 100%;
