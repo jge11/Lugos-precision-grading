@@ -80,6 +80,18 @@ header {
     gap: 0.625em;
     height: 3.375em;
   }
+  .companyBanner .floatingCTA {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+  }
+  .companyBanner .floatingCTA .getQuoteBtn {
+    background-color: #e2cd1a;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.375em;
+    font-size: 1em;
+  }
   .infoLinks {
     background-color: #02142a;
     display: flex;
