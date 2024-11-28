@@ -101,13 +101,18 @@ header {
     .floatingCTA {
       position: fixed;
       right: 0;
-      bottom: 0;
+      bottom: 8/16em;
       .getQuoteBtn {
         background-color: #e2cd1a;
         border: none;
         border-radius: 8/16em;
         padding: 6/16em;
-        font-size: 16/16em;
+        font-size: 14/16em;
+        height: 48/16em;
+        font-weight: 600;
+      }
+      :hover {
+        cursor: pointer;
       }
     }
   }
@@ -459,6 +464,16 @@ header {
   }
 }
 
+@media only screen and(max-width:425px) {
+  .testimonialContainer {
+    .reviewContainer {
+      .cardContainer {
+        width: 288/16em;
+      }
+    }
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .companyBanner {
     .companyContainer {
@@ -719,6 +734,12 @@ header {
       // .leftSideFooter {
       // }
     }
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  button {
+    font-size: 20/16em !important;
   }
 }
 
