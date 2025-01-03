@@ -65,6 +65,8 @@
         gap: 16/16em;
         padding: 16/16em;
         .serviceTitle {
+          display: flex;
+          justify-content: center;
           font-size: 48/16em;
           color: #202020;
         }
@@ -133,7 +135,7 @@
       gap: 48/16em;
       margin-top: 48/16em;
       margin-bottom: 48/16em;
-      h1 {
+      h2 {
         font-size: 32/16em;
         color: #d5c537;
       }
@@ -175,6 +177,11 @@
   //Our core services start
   .coreServices {
     background-color: #fbfbfb;
+    h1 {
+      display: flex;
+      font-size: 48/16em;
+      justify-content: center;
+    }
     .container {
       display: flex;
       flex-direction: column;
@@ -194,6 +201,10 @@
         .description {
           display: grid;
           gap: 16/16em;
+          justify-items: center;
+          h2 {
+            font-size: 32/16em;
+          }
         }
         img {
           border-radius: 32/16em;

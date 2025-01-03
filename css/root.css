@@ -56,13 +56,13 @@ header {
     padding-bottom: 11.75em;
     gap: 2em;
   }
-  .companyBanner .companyContainer h1 {
+  .companyBanner .companyContainer h2 {
     padding-left: 1em;
     padding-right: 1em;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 3em;
   }
-  .companyBanner .companyContainer h1 span {
+  .companyBanner .companyContainer h2 span {
     background-color: rgba(226, 205, 26, 0.5);
   }
   .companyBanner .companyContainer p {

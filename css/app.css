@@ -45,6 +45,8 @@
     padding: 1em;
   }
   .services .container .description .serviceTitle {
+    display: flex;
+    justify-content: center;
     font-size: 3em;
     color: #202020;
   }
@@ -105,7 +107,7 @@
     margin-top: 3em;
     margin-bottom: 3em;
   }
-  .testimonialContainer .reviewContainer h1 {
+  .testimonialContainer .reviewContainer h2 {
     font-size: 2em;
     color: #d5c537;
   }
@@ -143,6 +145,11 @@
   .coreServices {
     background-color: #fbfbfb;
   }
+  .coreServices h1 {
+    display: flex;
+    font-size: 3em;
+    justify-content: center;
+  }
   .coreServices .container {
     display: flex;
     flex-direction: column;
@@ -163,6 +170,10 @@
   .coreServices .container .cardContainer .description {
     display: grid;
     gap: 1em;
+    justify-items: center;
+  }
+  .coreServices .container .cardContainer .description h2 {
+    font-size: 2em;
   }
   .coreServices .container .cardContainer img {
     border-radius: 2em;
