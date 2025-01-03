@@ -3,6 +3,7 @@
     background-image: linear-gradient(rgba(25, 36, 54, 0.8), rgba(25, 36, 54, 0.64)), url(../images/homeBackground.webp);
     background-size: cover;
     background-position: center;
+    width: 100%;
   }
   .companyBanner .companyContainer .btns {
     display: flex;
