@@ -125,6 +125,7 @@
     border: 0.125em solid #d6eae5;
     border-radius: 1em;
     background-color: #ffffff;
+    min-width: 14.375em;
     display: grid;
   }
   .testimonialContainer .reviewContainer .cardContainer .description {
@@ -151,8 +152,7 @@
     justify-content: center;
   }
   .coreServices .container {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     gap: 3em;
     margin-top: 3em;
     margin-bottom: 3em;
@@ -257,7 +257,7 @@
     font-size: 1.5em;
   }
   .coreServices .container {
-    flex-direction: row;
+    grid-template-columns: 2fr 2fr 2fr;
   }
 }
 @media only screen and (min-width: 1440px) and (max-width: 2120px) {

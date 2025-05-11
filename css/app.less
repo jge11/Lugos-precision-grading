@@ -153,6 +153,7 @@
         border: 2/16em solid #d6eae5;
         border-radius: 16/16em;
         background-color: #ffffff;
+        min-width: 230/16em;
         display: grid;
         .description {
           display: grid;
@@ -183,8 +184,7 @@
       justify-content: center;
     }
     .container {
-      display: flex;
-      flex-direction: column;
+      display: grid;
       gap: 48/16em;
       margin-top: 48/16em;
       margin-bottom: 48/16em;
@@ -310,7 +310,7 @@
   //Our core services start
   .coreServices {
     .container {
-      flex-direction: row;
+      grid-template-columns: 2fr 2fr 2fr;
     }
   }
   //Our core services end
