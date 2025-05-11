@@ -125,6 +125,7 @@
     border: 0.125em solid #d6eae5;
     border-radius: 1em;
     background-color: #ffffff;
+    min-width: 14.375em;
     display: grid;
   }
   .testimonialContainer .reviewContainer .cardContainer .description {
