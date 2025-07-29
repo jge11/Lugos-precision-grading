@@ -30,9 +30,10 @@
   .companyBanner .companyContainer .btns a :hover {
     cursor: pointer;
   }
-  .services .backgroundImage {
-    position: absolute;
-    z-index: -999;
+  .services {
+    background-image: url(../images/homeBackground.svg);
+    background-size: cover;
+    background-position: center;
     width: 100%;
   }
   .services .container {
@@ -87,6 +88,7 @@
     cursor: pointer;
   }
   .services .container img {
+    z-index: 1;
     padding: 0.5em;
     border-radius: 1em;
   }
@@ -242,7 +244,6 @@
     width: 17.625em;
     height: 19.625em;
     background-color: #192436;
-    z-index: -1;
   }
   .testimonialContainer .reviewContainer .googleLogo {
     height: 28%;

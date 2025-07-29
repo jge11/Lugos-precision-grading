@@ -542,24 +542,24 @@ header {
     color: #ffffff;
     text-decoration: none;
   }
-  .footerSection .footerContainer .rightSideFooter ul.services .footerCta {
+  .footerSection .footerContainer .rightSideFooter ul.contactInfo .footerCta {
     color: #e2cd1a;
     font-size: 1.5em;
     border-bottom: 2px solid #ffffff;
   }
-  .footerSection .footerContainer .rightSideFooter ul.services li {
+  .footerSection .footerContainer .rightSideFooter ul.contactInfo li {
     list-style: none;
     margin-bottom: 0.5em;
     margin-top: 0.625em;
   }
-  .footerSection .footerContainer .rightSideFooter ul.services li p {
+  .footerSection .footerContainer .rightSideFooter ul.contactInfo li p {
     font-size: 1em !important;
   }
-  .footerSection .footerContainer .rightSideFooter ul.services a {
+  .footerSection .footerContainer .rightSideFooter ul.contactInfo a {
     color: #ffffff;
     text-decoration: none;
   }
-  .footerSection .footerContainer .rightSideFooter ul.services :hover {
+  .footerSection .footerContainer .rightSideFooter ul.contactInfo :hover {
     color: #e2cd1a;
   }
   .footerSection .footerContainer .rightSideFooter ul.footerSocialLinks {

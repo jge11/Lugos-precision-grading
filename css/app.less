@@ -51,11 +51,15 @@
 
   // Who we are Section start
   .services {
-    .backgroundImage {
-      position: absolute;
-      z-index: -999;
-      width: 100%;
-    }
+    // .backgroundImage {
+    //   position: absolute;
+    //   z-index: -999;
+    //   width: 100%;
+    // }
+    background-image: url(../images/homeBackground.svg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
     .container {
       padding-top: 48/16em;
       padding-bottom: 48/16em;
@@ -112,6 +116,7 @@
         }
       }
       img {
+        z-index: 1;
         padding: 8/16em;
         border-radius: 16/16em;
       }
@@ -286,7 +291,7 @@
       width: 17.625em;
       height: 19.625em;
       background-color: #192436;
-      z-index: -1;
+      // z-index: -1;
     }
   }
   .testimonialContainer {
