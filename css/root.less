@@ -63,6 +63,7 @@ header {
     background-color: rgba(2, 20, 42, 0.6);
   }
   .companyBanner {
+    display: flex;
     .companyContainer {
       display: grid;
       justify-items: center;
@@ -96,6 +97,24 @@ header {
         gap: 10/16em;
         // width: 50%;
         height: 54/16em;
+      }
+    }
+    .heroForm {
+      .formContainer {
+        ul.services {
+          li {
+            p {
+              a {
+                color: black;
+                cursor: pointer;
+                font-size: 24/16em;
+              }
+              a:hover {
+                color: #e2cd1a;
+              }
+            }
+          }
+        }
       }
     }
     .floatingCTA {
