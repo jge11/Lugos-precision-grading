@@ -90,11 +90,22 @@ header {
     background-color: rgba(25, 36, 54, 0.75);
   }
   .companyBanner .heroForm .formContainer form {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    min-width: 20.75em;
   }
-  .companyBanner .heroForm .formContainer form h2 {
+  .companyBanner .heroForm .formContainer form .formCTA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .companyBanner .heroForm .formContainer form .formCTA h2 {
     padding-bottom: 0.5em;
-    color: #000000;
+    color: #ffffff;
+  }
+  .companyBanner .heroForm .formContainer form .formCTA h3 {
+    padding-bottom: 0.5em;
+    color: #cfbb13;
   }
   .companyBanner .heroForm .formContainer form input {
     width: 85%;
@@ -608,11 +619,7 @@ header {
     margin-bottom: 0.5em;
     margin-top: 0.625em;
   }
-  .footerSection
-    .footerContainer
-    .rightSideFooter
-    ul.pages
-    .companyNavList:hover {
+  .footerSection .footerContainer .rightSideFooter ul.pages .companyNavList:hover {
     color: #e2cd1a;
   }
   .footerSection .footerContainer .rightSideFooter ul.pages a {
@@ -658,11 +665,7 @@ header {
     color: #ffffff;
     cursor: pointer;
   }
-  .footerSection
-    .footerContainer
-    .rightSideFooter
-    ul.footerSocialLinks
-    li:hover {
+  .footerSection .footerContainer .rightSideFooter ul.footerSocialLinks li:hover {
     color: #ff0000;
     background-color: #ffffff;
   }
