@@ -109,6 +109,8 @@ header {
           display: flex;
           flex-direction: column;
           min-width: 332/16em;
+          margin-top: 32/16em;
+          padding-top: 32/16em;
           .formCTA {
             display: flex;
             flex-direction: column;
@@ -117,7 +119,7 @@ header {
               padding-bottom: 8/16em;
               color: #ffffff;
             }
-            h3 {
+            span {
               padding-bottom: 8/16em;
               color: #cfbb13;
             }
@@ -129,6 +131,7 @@ header {
             border: 1px solid #a4a4a4;
             left: 8%;
             position: relative;
+            height: 62/16em;
           }
 
           input[required]::before {
@@ -139,6 +142,9 @@ header {
             transform: translateX(
               -10px
             ); /* Adjust the position of the asterisk */
+          }
+          input::placeholder {
+            font-size: 18/16em;
           }
           .messageBox {
             display: grid;

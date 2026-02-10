@@ -93,6 +93,8 @@ header {
     display: flex;
     flex-direction: column;
     min-width: 20.75em;
+    margin-top: 2em;
+    padding-top: 2em;
   }
   .companyBanner .heroForm .formContainer form .formCTA {
     display: flex;
@@ -103,7 +105,7 @@ header {
     padding-bottom: 0.5em;
     color: #ffffff;
   }
-  .companyBanner .heroForm .formContainer form .formCTA h3 {
+  .companyBanner .heroForm .formContainer form .formCTA span {
     padding-bottom: 0.5em;
     color: #cfbb13;
   }
@@ -114,6 +116,7 @@ header {
     border: 1px solid #a4a4a4;
     left: 8%;
     position: relative;
+    height: 3.875em;
   }
   .companyBanner .heroForm .formContainer form input[required]::before {
     content: "*";
@@ -122,6 +125,9 @@ header {
     position: absolute;
     transform: translateX(-10px);
     /* Adjust the position of the asterisk */
+  }
+  .companyBanner .heroForm .formContainer form input::placeholder {
+    font-size: 1.125em;
   }
   .companyBanner .heroForm .formContainer form .messageBox {
     display: grid;
