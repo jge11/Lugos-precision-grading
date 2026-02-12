@@ -64,6 +64,8 @@ header {
   }
   .companyBanner {
     display: flex;
+    justify-content: center;
+    align-items: center;
     .companyContainer {
       display: grid;
       justify-items: center;
@@ -108,8 +110,7 @@ header {
         form {
           display: flex;
           flex-direction: column;
-          min-width: 332/16em;
-          margin-top: 32/16em;
+          min-width: 477/16em;
           padding-top: 32/16em;
           .formCTA {
             display: flex;
@@ -124,14 +125,19 @@ header {
               color: #cfbb13;
             }
           }
-          input {
-            width: 85%;
-            padding-left: 16/16em;
-            padding-bottom: 16/16em;
-            border: 1px solid #a4a4a4;
-            left: 8%;
-            position: relative;
-            height: 62/16em;
+          .inputFields {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            input {
+              width: 40%;
+              padding: 1em;
+              border: 1px solid #a4a4a4;
+              position: relative;
+              height: 3.875em;
+              margin: 0.8em;
+            }
           }
 
           input[required]::before {
@@ -573,8 +579,9 @@ header {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .companyBanner {
+    flex-direction: column;
     .companyContainer {
       h1 {
         font-size: 66/16em;

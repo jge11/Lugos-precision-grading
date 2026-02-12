@@ -50,6 +50,8 @@ header {
   }
   .companyBanner {
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .companyBanner .companyContainer {
     display: grid;
@@ -92,8 +94,7 @@ header {
   .companyBanner .heroForm .formContainer form {
     display: flex;
     flex-direction: column;
-    min-width: 20.75em;
-    margin-top: 2em;
+    min-width: 29.8125em;
     padding-top: 2em;
   }
   .companyBanner .heroForm .formContainer form .formCTA {
@@ -109,14 +110,19 @@ header {
     padding-bottom: 0.5em;
     color: #cfbb13;
   }
-  .companyBanner .heroForm .formContainer form input {
-    width: 85%;
-    padding-left: 1em;
-    padding-bottom: 1em;
+  .companyBanner .heroForm .formContainer form .inputFields {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .companyBanner .heroForm .formContainer form .inputFields input {
+    width: 40%;
+    padding: 1em;
     border: 1px solid #a4a4a4;
-    left: 8%;
     position: relative;
     height: 3.875em;
+    margin: 0.8em;
   }
   .companyBanner .heroForm .formContainer form input[required]::before {
     content: "*";
@@ -502,7 +508,10 @@ header {
     width: 18em;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
+  .companyBanner {
+    flex-direction: column;
+  }
   .companyBanner .companyContainer h1 {
     font-size: 4.125em;
   }
