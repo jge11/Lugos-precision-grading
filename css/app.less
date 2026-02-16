@@ -119,7 +119,62 @@
     }
   }
   // Who we are Section end
+  // Column callouts start
 
+  .columnCallOuts {
+    background-color: #0e2750;
+    padding: 16/16em;
+    h2#title {
+      display: flex;
+      justify-content: center;
+      font-size: 32/16em;
+      color: #d5c537;
+    }
+    .callOut {
+      display: grid;
+      gap: 16/16em;
+      padding: 16/16em;
+      margin: 32/16em;
+      position: relative;
+      left: 8%;
+      h3 {
+        font-size: 20/16em;
+        color: #e2cd1a;
+      }
+      p {
+        // font-size: 18/16em;
+        color: #ffffff;
+      }
+    }
+    .quoteServicesBtns {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 48/16em;
+      a {
+        button {
+          color: #192436;
+          border-radius: 0.5em;
+          // padding: 0.375em;
+          font-size: 16/16em;
+          gap: 0.625em;
+          height: 38/16em;
+        }
+        .getQuoteBtn {
+          background-color: #e2cd1a;
+          border: none;
+        }
+        .learnMoreBtn {
+          // background-color: rgba(226, 205, 26, 0.16);
+          border: 2/16em solid #303030;
+        }
+        :hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  // Column callouts end
   //testimonial Container start
   .testimonialContainer {
     background-color: #192436;

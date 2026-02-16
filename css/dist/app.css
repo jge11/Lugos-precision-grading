@@ -93,6 +93,54 @@
   .services .container#sitePrep {
     background-color: #ffffff;
   }
+  .columnCallOuts {
+    background-color: #0e2750;
+    padding: 1em;
+  }
+  .columnCallOuts h2#title {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    color: #d5c537;
+  }
+  .columnCallOuts .callOut {
+    display: grid;
+    gap: 1em;
+    padding: 1em;
+    margin: 2em;
+    position: relative;
+    left: 8%;
+  }
+  .columnCallOuts .callOut h3 {
+    font-size: 1.25em;
+    color: #e2cd1a;
+  }
+  .columnCallOuts .callOut p {
+    color: #ffffff;
+  }
+  .columnCallOuts .quoteServicesBtns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+  }
+  .columnCallOuts .quoteServicesBtns a button {
+    color: #192436;
+    border-radius: 0.5em;
+    font-size: 1em;
+    gap: 0.625em;
+    height: 2.375em;
+  }
+  .columnCallOuts .quoteServicesBtns a .getQuoteBtn {
+    background-color: #e2cd1a;
+    border: none;
+  }
+  .columnCallOuts .quoteServicesBtns a .learnMoreBtn {
+    border: 0.125em solid #303030;
+  }
+  .columnCallOuts .quoteServicesBtns a :hover {
+    cursor: pointer;
+  }
   .testimonialContainer {
     background-color: #192436;
     display: flex;
