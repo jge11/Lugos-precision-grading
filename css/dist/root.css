@@ -136,8 +136,7 @@ header {
     font-size: 1.125em;
   }
   .companyBanner .heroForm .formContainer form .messageBox {
-    display: grid;
-    width: 100%;
+    margin-top: 0.5em;
   }
   .companyBanner .heroForm .formContainer form .messageBox #messageText {
     outline: none;
@@ -145,9 +144,8 @@ header {
     padding-left: 1em;
     padding-right: 1em;
     min-height: 6em;
-    overflow-y: hidden;
     border-color: #a4a4a4;
-    width: 85%;
+    width: 84%;
     left: 8%;
     position: relative;
   }
@@ -511,6 +509,9 @@ header {
 @media only screen and (max-width: 768px) {
   .companyBanner {
     flex-direction: column;
+  }
+  .companyBanner .heroForm .formContainer form {
+    min-width: 100%;
   }
   .companyBanner .companyContainer h1 {
     font-size: 4.125em;
