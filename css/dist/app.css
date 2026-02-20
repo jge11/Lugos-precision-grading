@@ -1,6 +1,6 @@
 @media only screen and (min-width: 0) {
   .companyBanner {
-    background-image: linear-gradient(rgba(25, 36, 54, 0.8), rgba(25, 36, 54, 0.64)), url(../images/homeBackground.webp);
+    background-image: linear-gradient(rgba(25, 36, 54, 0.8), rgba(25, 36, 54, 0.64)), url(/images/homeBackground.webp);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -92,6 +92,54 @@
   }
   .services .container#sitePrep {
     background-color: #ffffff;
+  }
+  .columnCallOuts {
+    background-color: #0e2750;
+    padding: 1em;
+  }
+  .columnCallOuts h2#title {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    color: #d5c537;
+  }
+  .columnCallOuts .callOut {
+    display: grid;
+    gap: 1em;
+    padding: 1em;
+    margin: 2em;
+    position: relative;
+    left: 8%;
+  }
+  .columnCallOuts .callOut h3 {
+    font-size: 1.25em;
+    color: #e2cd1a;
+  }
+  .columnCallOuts .callOut p {
+    color: #ffffff;
+  }
+  .columnCallOuts .quoteServicesBtns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+  }
+  .columnCallOuts .quoteServicesBtns a button {
+    color: #192436;
+    border-radius: 0.5em;
+    font-size: 1em;
+    gap: 0.625em;
+    height: 2.375em;
+  }
+  .columnCallOuts .quoteServicesBtns a .getQuoteBtn {
+    background-color: #e2cd1a;
+    border: none;
+  }
+  .columnCallOuts .quoteServicesBtns a .learnMoreBtn {
+    border: 0.125em solid #303030;
+  }
+  .columnCallOuts .quoteServicesBtns a :hover {
+    cursor: pointer;
   }
   .testimonialContainer {
     background-color: #192436;
@@ -198,6 +246,14 @@
     cursor: pointer;
   }
 }
+.contactForm .contactContainer .formContainer ul.services li p a {
+  color: black;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+.contactForm .contactContainer .formContainer ul.services li p a:hover {
+  color: #e2cd1a;
+}
 @media only screen and (min-width: 768px) {
   .landingSection .heroSection {
     background-position: top;
@@ -266,7 +322,7 @@
   }
 }
 @media only screen and (min-width: 2560px) {
-  button {
+  .getQuoteBtn {
     font-size: 1.5em !important;
   }
   .services .servicesContainer .backgroundImage {

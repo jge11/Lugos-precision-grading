@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -18,8 +18,8 @@
     />
 
     <title>Naples,FL|Lugo's Precision Grading</title>
-    <link rel="stylesheet" href="css/root.css" />
-    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/dist/root.css" />
+    <link rel="stylesheet" href="css/dist/app.css" />
     <script
       src="https://kit.fontawesome.com/7235a76d3b.js"
       defer
@@ -119,17 +119,79 @@
           tailored to your needs.
         </p>
         <div class="btns">
-          <a
+          <!-- <a
             href="/contact.html#areasServicedBtn"
             aria-label="Click to go contact button"
           >
             <button class="letsConnectBtn">Get Your Free Quote Today</button>
-          </a>
+          </a> -->
           <a href="services.html#tempDrivewayPhoto">
             <button type="submit" id="areasServicedBtn">
               Explore Our Service Areas
             </button>
           </a>
+        </div>
+      </div>
+      <div class="heroForm">
+        <div class="formContainer" id="formContainer">
+          <!-- action="https://formsubmit.co/lugosprecisiongradingservices@gmail.com" -->
+          <form name="contact" method="POST" data-netlify="true">
+            <span class="formCTA">
+              <h2>
+                Get Expert Land Grading <br />
+                <span>Request Your Quote Today!</span>
+              </h2>
+              <!-- <h3>Request Your Quote Today!</h3> -->
+            </span>
+            <br />
+            <div class="inputFields">
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                for="firstName"
+                aria-placeholder="First Name *"
+                placeholder="First Name *"
+                required
+              />
+              <br />
+              <input
+                type="text"
+                name="lastName"
+                id="lastName"
+                required
+                aria-placeholder="Last Name *"
+                placeholder="Last Name *"
+              />
+              <br />
+              <input
+                type="tel"
+                name="phoneNumber"
+                id="phoneNumber"
+                aria-placeholder="Phone Number *"
+                placeholder="Phone Number *"
+              />
+              <br />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                aria-placeholder="Email address *"
+                placeholder="Email address *"
+              /><br />
+            </div>
+            <div class="messageBox">
+              <textarea
+                id="messageText"
+                name="message"
+                aria-placeholder="Write your message..."
+                placeholder="Write your message..."
+              ></textarea>
+            </div>
+            <br />
+            <button type="submit">Get a free quote</button>
+          </form>
         </div>
       </div>
       <div class="floatingCTA">
@@ -193,7 +255,60 @@
       </div>
     </main>
     <!-- About our company end -->
-
+    <!-- Here’s why you should hire Lugo’s Precision Grading -->
+    <section class="columnCallOuts">
+      <h2 id="title">Here’s why you should hire Lugo’s Precision Grading</h2>
+      <div id="callOutOne" class="callOut">
+        <h3>1. Initial Consultation & Site Evaluation</h3>
+        <p>
+          lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem
+          Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum
+        </p>
+      </div>
+      <div id="callOutTwo" class="callOut">
+        <h3>2. Customized Land Preparation Plan</h3>
+        <p class="callOutContent">
+          lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem
+          Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum
+        </p>
+      </div>
+      <div id="callOutThree" class="callOut">
+        <h3>3. Expert Execution & Quality Assurance</h3>
+        <p class="callOutContent">
+          lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem
+          Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum
+        </p>
+      </div>
+      <div id="callOutFour" class="callOut">
+        <h3>4. Ongoing Support & Maintenance</h3>
+        <p class="callOutContent">
+          lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem
+          Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum
+        </p>
+      </div>
+      <div id="callOutFive" class="callOut">
+        <h3>5. Customer Satisfaction Guarantee</h3>
+        <p class="callOutContent">
+          lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem
+          Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum
+        </p>
+      </div>
+      <div class="quoteServicesBtns">
+        <a
+          href="/contact.html#areasServicedBtn"
+          aria-label="Click to go to Explore Our Service Areas list"
+        >
+          <button class="getQuoteBtn">Get Your Free Quote Today</button>
+        </a>
+        <a
+          target="_blank"
+          href="https://www.facebook.com/p/Lugos-Precision-Grading-Services-LLC-100076109316239/"
+        >
+          <button class="learnMoreBtn">More on Facebook</button>
+        </a>
+      </div>
+    </section>
+    <!-- Here’s why you should hire Lugo’s Precision Grading end -->
     <!-- Testimonial section start -->
     <section class="testimonialContainer">
       <div class="reviewContainer">
@@ -363,6 +478,75 @@
       </div>
     </section>
     <!-- Our Core Services End -->
+    <!-- contact form section start -->
+    <section class="contactForm">
+      <div class="contactContainer">
+        <div class="formContainer" id="formContainer">
+          <!-- action="https://formsubmit.co/lugosprecisiongradingservices@gmail.com" -->
+          <form name="contact" method="POST" data-netlify="true">
+            <h2>Contact Us</h2>
+
+            <br />
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              for="firstName"
+              aria-placeholder="First Name *"
+              placeholder="First Name *"
+              required
+            />
+            <br />
+            <input
+              type="text"
+              name="lastName"
+              id="lastName"
+              required
+              aria-placeholder="Last Name *"
+              placeholder="Last Name *"
+            />
+            <br />
+            <input
+              type="tel"
+              name="phoneNumber"
+              id="phoneNumber"
+              aria-placeholder="Phone Number *"
+              placeholder="Phone Number *"
+            />
+            <br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              aria-placeholder="Email address *"
+              placeholder="Email address *"
+            /><br />
+            <div class="messageBox">
+              <textarea
+                id="messageText"
+                name="message"
+                aria-placeholder="Write your message..."
+                placeholder="Write your message..."
+              ></textarea>
+            </div>
+            <br />
+            <button type="submit">Get a free quote</button>
+          </form>
+        </div>
+      </div>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14341.660025310415!2d-81.64739293748569!3d26.019973935045908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x890d27ba1144b245%3A0x509ed0666f97add3!2sLugos%20Precision%20Grading!5e0!3m2!1sen!2sus!4v1725932636799!5m2!1sen!2sus"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          aria-label="Lugo's Precision Grading geolocation"
+        ></iframe>
+      </div>
+    </section>
+    <!-- contact form section end -->
     <!-- Footer section start -->
     <footer class="footerSection">
       <div class="footerContainer">

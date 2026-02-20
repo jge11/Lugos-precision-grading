@@ -63,6 +63,9 @@ header {
     background-color: rgba(2, 20, 42, 0.6);
   }
   .companyBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     .companyContainer {
       display: grid;
       justify-items: center;
@@ -96,6 +99,109 @@ header {
         gap: 10/16em;
         // width: 50%;
         height: 54/16em;
+      }
+    }
+    .heroForm {
+      .formContainer {
+        display: inherit;
+        gap: 32/16em;
+        width: 100%;
+        background-color: rgba(25, 36, 54, 0.75);
+        form {
+          display: flex;
+          flex-direction: column;
+          min-width: 477/16em;
+          padding-top: 32/16em;
+          .formCTA {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h2 {
+              padding-bottom: 8/16em;
+              color: #ffffff;
+            }
+            span {
+              padding-bottom: 8/16em;
+              color: #cfbb13;
+            }
+          }
+          .inputFields {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            input {
+              width: 40%;
+              padding: 1em;
+              border: 1px solid #a4a4a4;
+              position: relative;
+              height: 3.875em;
+              margin: 0.8em;
+            }
+          }
+
+          input[required]::before {
+            content: "*";
+            color: red;
+            margin-right: 5px;
+            position: absolute;
+            transform: translateX(
+              -10px
+            ); /* Adjust the position of the asterisk */
+          }
+          input::placeholder {
+            font-size: 18/16em;
+          }
+          .messageBox {
+            // display: grid;
+            // width: 100%;
+            margin-top: 8/16em;
+
+            #messageText {
+              outline: none;
+              resize: none;
+              padding-left: 16/16em;
+              padding-right: 16/16em;
+              min-height: 96/16em;
+              // overflow-y: hidden;
+              border-color: #a4a4a4;
+              width: 84%;
+              left: 8%;
+              position: relative;
+            }
+          }
+          button {
+            margin-bottom: 64/16em;
+            width: 85%;
+            left: 8%;
+            position: relative;
+            background-image: linear-gradient(
+              to right,
+              #e2cd1a 50%,
+              @black 50%
+            );
+
+            background-size: 200% 100%;
+            transition: background-position 0.5s;
+            background-position: 0;
+            color: #192436;
+            border: none;
+            border-radius: 10/16em;
+            padding: 16/16em;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.8/16em;
+            // border-radius: 30/16em;
+            letter-spacing: 1.6/16em;
+            cursor: pointer;
+            font-size: @defaultFS;
+            font: inter;
+          }
+          button:hover {
+            background-position: 100%;
+            color: #ffffff;
+          }
+        }
       }
     }
     .floatingCTA {
@@ -474,8 +580,12 @@ header {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .companyBanner {
+    flex-direction: column;
+    .heroForm .formContainer form {
+      min-width: 100%;
+    }
     .companyContainer {
       h1 {
         font-size: 66/16em;
